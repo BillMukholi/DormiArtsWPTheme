@@ -23,10 +23,25 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'dormi_arts' ); ?></a>
-
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			
-		</nav><!-- #site-navigation -->
+	<header id="masthead" class="header">
+		<div class="header container">
+			<div class="header-desktop">
+				<div class="header-desktop-left">
+					<a class="header-desktop-site-name-cont" href="#">
+						<p class="header-desktop-site-name">Site Name</p>
+					</a>
+				</div>
+				<div class="header-desktop-center"></div>
+				<div class="header-desktop-right"></div>
+			</div>
+			<div class="header-mobile">
+				<div class="header-mobile-left"></div>
+				<div class="header-mobile-center">
+					<a class="header-mobile-site-name-cont" href="#">
+						<p class="header-mobile-site-name">Site Name</p>
+					</a>
+				</div>
+				<div class="header-mobile-right"></div>
+			</div>
+		</div>
 	</header><!-- #masthead -->
