@@ -27,22 +27,38 @@
 		<div class="header-cont container">
 			<div class="header-desktop">
 				<div class="header-desktop-left">
-					<a class="header-desktop-site-name-cont textColor" href="#">
-						<p class="header-desktop-site-name">Site Name</p>
+					<a class="header-desktop-site-name-cont textColor" href="<?php echo site_url(); ?>">
+						<p class="header-desktop-site-name"><?php echo get_bloginfo('name'); ?></p>
 					</a>
 				</div>
 				<div class="header-desktop-center"></div>
 				<div class="header-desktop-right">
 					<nav class="header-desktop-navigation-cont">
-						
+						<ul class="header-desktop-navigation">
+							<?php
+								wp_nav_menu(array(
+									'menu' => 'primary',
+									'container' => false,
+									'items_wrap' => '%3$s',
+								)); 
+							?>
+						</ul>
 					</nav>
+					<div class="header-desktop-checkout-cont">
+						<a class="header-desktop-checkout-btn" href="#">
+							<p  class="header-desktop-checkout-btn-text">Checkout</p>
+							<div  class="header-desktop-checkout-number-cont">
+								<p class="header-desktop-checkout-number">0</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<div class="header-mobile">
 				<div class="header-mobile-left"></div>
 				<div class="header-mobile-center">
-					<a class="header-mobile-site-name-cont" href="#">
-						<p class="header-mobile-site-name">Site Name</p>
+					<a class="header-mobile-site-name-cont" href="<?php echo site_url(); ?>">
+						<p class="header-mobile-site-name"><?php echo get_bloginfo('name'); ?></p>
 					</a>
 				</div>
 				<div class="header-mobile-right"></div>
