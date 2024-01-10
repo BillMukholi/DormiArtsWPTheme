@@ -140,10 +140,17 @@ add_action( 'widgets_init', 'dormi_arts_widgets_init' );
 function dormi_arts_scripts() {
 	wp_enqueue_style( 'dormi_arts-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'dormi_arts-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'OwlCarousel', get_template_directory_uri(). "/assets/library/OwlCarousel/dist/assets/owl.carousel.min.css", array(), _S_VERSION );
+	wp_style_add_data( 'OwlCarousel', 'rtl', 'replace' );
+	wp_enqueue_style( 'OwlCarouselDefault', get_template_directory_uri(). "/assets/library/OwlCarousel/dist/assets/owl.theme.default.min.css", array(), _S_VERSION );
+	wp_style_add_data( 'OwlCarouselDefault', 'rtl', 'replace' );
 	wp_enqueue_style( 'dormi_arts', get_template_directory_uri(). "/css/main.css", array(), _S_VERSION );
 	wp_style_add_data( 'dormi_arts', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'dormi_arts-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'Query', get_template_directory_uri() . '/assets/library/jquery.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'GSAP', get_template_directory_uri() . '/assets/library/gsap/gsap.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'OwlCarousel', get_template_directory_uri() . '/assets/library/OwlCarousel/dist/owl.carousel.min.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
