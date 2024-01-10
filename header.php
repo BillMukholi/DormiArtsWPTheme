@@ -23,16 +23,20 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 <div id="page" class="site">
-	<header id="masthead" class="header">
-		<div class="header container">
+	<header class="header">
+		<div class="header-cont container">
 			<div class="header-desktop">
 				<div class="header-desktop-left">
-					<a class="header-desktop-site-name-cont" href="#">
+					<a class="header-desktop-site-name-cont textColor" href="#">
 						<p class="header-desktop-site-name">Site Name</p>
 					</a>
 				</div>
 				<div class="header-desktop-center"></div>
-				<div class="header-desktop-right"></div>
+				<div class="header-desktop-right">
+					<nav class="header-desktop-navigation-cont">
+						
+					</nav>
+				</div>
 			</div>
 			<div class="header-mobile">
 				<div class="header-mobile-left"></div>
