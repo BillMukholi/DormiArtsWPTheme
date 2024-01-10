@@ -74,7 +74,74 @@ p{
             }
             .header-desktop-right{
                 position: relative;
-                width: 5cm;
+                display: flex;
+                align-items: center;
+                width: auto;
+                height: inherit;
+                .header-desktop-navigation{
+                    position: relative;
+                    list-style-type: none;
+                    display: flex;
+                    width: auto;
+                    padding: 0px;
+                    margin: 0px;
+                    li{
+                        position: relative;
+                        padding: 0px;
+                        margin: 0px 5px;
+                        padding: 0px 5px;
+                        a{
+                            text-wrap: nowrap;
+                            text-decoration: none;
+                            color: black;
+                            font-family: 'Poppins';
+                            font-size: 1em;
+                        }
+                        ul{
+                            display: none;
+                        }
+                    }
+                }
+                .header-desktop-checkout-cont{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    height: inherit;
+                    margin-left: 10px;
+                    .header-desktop-checkout-btn{
+                        position: relative;
+                        display: flex;
+                        border: 2px solid black;
+                        border-radius: 100cm;
+                        text-decoration: none;
+                        padding: 5px 10px;
+                        p{
+                            font-family: 'Poppins';
+                            padding: 0px;
+                            margin: 0px;
+                            font-size: 0.9em;
+                            color: black;
+                        }
+                        .header-desktop-checkout-number-cont{
+                            position: relative;
+                            display: flex;
+                            align-items: center;
+                            text-align: center;
+                            border-radius: 10cm;
+                            background: black;
+                            width: 20px;
+                            height: 20px;
+                            margin-left: 5px;
+                            .header-desktop-checkout-number{
+                                color: white;
+                                font-size: 0.8em;
+                                text-align: center;
+                                margin: auto;
+                                padding: 0px;
+                            }
+                        }
+                    }
+                }
             }
             .header-desktop-center{
                 position: relative;
