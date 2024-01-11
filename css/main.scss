@@ -23,7 +23,7 @@
         width: 85% !important;
     }
     @media(min-width:1439px){
-        width: 1500px !important;
+        width: 1200px !important;
     }
 }
 
@@ -286,6 +286,29 @@ p{
                     left: 50%;
                     top: 50%;
                     transform: translate(-50%,-50%);
+                    .header-mobile-cart-number-cont{
+                        position: absolute;
+                        z-index: 2;
+                        left: 50%;
+                        top: 50%;
+                        background: black;
+                        border-radius: 10px;
+                        color: white;
+                        padding: 0px 5px;
+                        .header-mobile-cart-number{
+                            text-align: center;
+                            padding: 0;
+                            margin: 0;
+                            font-size: 0.8em;
+                            font-weight: 800;
+                        }
+                    }
+                    .header-mobile-cart-icon{
+                        position: relative;
+                        margin: auto;
+                        width: 1cm;
+                        height: auto;
+                    }
                 }
             }
         }
@@ -330,9 +353,9 @@ p{
                     @media(min-width:424px){
                     }
                     @media(min-width:767px){
-                        width: 10%;
                     }
                     @media(min-width:1023px){
+                        width: 10%;
                     }
                     @media(min-width:1439px){
                     }
@@ -360,9 +383,9 @@ p{
                     @media(min-width:424px){
                     }
                     @media(min-width:767px){
-                        width: 2%;
                     }
                     @media(min-width:1023px){
+                        width: 2%;
                     }
                     @media(min-width:1439px){
                     }
@@ -390,9 +413,9 @@ p{
                     @media(min-width:424px){
                     }
                     @media(min-width:767px){
-                        width: 40%;
                     }
                     @media(min-width:1023px){
+                        width: 40%;
                     }
                     @media(min-width:1439px){
                     }
@@ -413,6 +436,7 @@ p{
                             font-weight: 300;
                             margin-top: 10%;
                             text-wrap: nowrap;
+                            cursor: default;
                         }
                         .bold{
                             font-weight: 900;
@@ -428,7 +452,6 @@ p{
             height: 95vh;
             z-index: 1;
             overflow: hidden;
-            background: yellow;
             .hero-carousel{
                 position: relative;
                 width: 100%;
@@ -440,11 +463,48 @@ p{
                     width: 100vw;
                     height: 95vh;
                     .hero-carousel-slide-img-mobile{
-                        display: none;
+                        @media(min-width:0px){
+                            display: block;
+                        }
+                        @media(min-width:319px){
+                        }
+                        @media(min-width:374px){
+                        }
+                        @media(min-width:424px){
+                        }
+                        @media(min-width:767px){
+                        }
+                        @media(min-width:1023px){
+                            display: none;
+                        }
+                        @media(min-width:1439px){
+                        }
+                        position: absolute;
+                        height: 120%;
+                        width: auto;
+                        transform: translate(-50%,-50%);
+                        left: 50%;
+                        top: 50%;
                     }
                     .hero-carousel-slide-img-desktop{
+                        @media(min-width:0px){
+                            display: none;
+                        }
+                        @media(min-width:319px){
+                        }
+                        @media(min-width:374px){
+                        }
+                        @media(min-width:424px){
+                        }
+                        @media(min-width:767px){
+                        }
+                        @media(min-width:1023px){
+                            display: block;
+                        }
+                        @media(min-width:1439px){
+                        }
                         position: absolute;
-                        width: 190%;
+                        width: 120%;
                         height: auto;
                         transform: translate(-50%,-50%);
                         left: 50%;
@@ -452,6 +512,18 @@ p{
                     }
                 }
             }
+        }
+    }
+}
+//HEADING
+.heading{
+    position: relative;
+    width: 100%;
+    .heading-cont{
+        position: relative;
+        width: 100%;
+        h1{
+            font-family: "Playfair Display";
         }
     }
 }

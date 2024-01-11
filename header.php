@@ -72,7 +72,10 @@
 				</div>
 				<div class="header-mobile-right">
 					<a href="#" class="header-mobile-cart-link">
-						<img class="header-mobile-cart-link-icon" src="<?php echo get_template_directory_uri().'/assets/icon/shoppingBag.svg' ?>">
+						<div class="header-mobile-cart-number-cont">
+							<p class="header-mobile-cart-number">09</p>
+						</div>
+						<img class="header-mobile-cart-icon" src="<?php echo get_template_directory_uri().'/assets/icon/shoppingBag.svg' ?>">
 					</a>
 				</div>
 			</div>

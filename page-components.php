@@ -16,15 +16,6 @@ get_header();
 ?>
 
 	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-		endwhile; // End of the loop.
-		?>
-
 		<!-- HERO -->
 		<hero class="hero">
 			<div class="hero-cont">
@@ -35,28 +26,28 @@ get_header();
 						</div>
 						<div class="hero-marquee owl-carousel">
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
+								<p class="hero-marquee-slide-text bold"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text">Dormi Arts</p>
+								<p class="hero-marquee-slide-text"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
+								<p class="hero-marquee-slide-text bold"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text">Dormi Arts</p>
+								<p class="hero-marquee-slide-text"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
+								<p class="hero-marquee-slide-text bold"><?php echo get_bloginfo('name'); ?></p>
 							</div> 
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text">Dormi Arts</p>
+								<p class="hero-marquee-slide-text"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
+								<p class="hero-marquee-slide-text bold"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 							<div class="hero-marquee-slide">
-								<p class="hero-marquee-slide-text">Dormi Arts</p>
+								<p class="hero-marquee-slide-text"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 						</div>
 						<div class="hero-marquee-offset-2">
@@ -67,11 +58,11 @@ get_header();
 				<div class="hero-bg-cont">
 					<div class="hero-carousel owl-carousel">
 						<div class="hero-carousel-slide">
-							<!-- <img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/1-m.jpg"> -->
+							<img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/1-m.jpg">
 							<img class="hero-carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()?>/assets/img/1.jpg">
 						</div>
 						<div class="hero-carousel-slide">
-							<!-- <img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/2-m.jpg"> -->
+							<img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/2-m.jpg">
 							<img class="hero-carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()?>/assets/img/2.jpg">
 						</div>
 					</div>
@@ -79,6 +70,13 @@ get_header();
 			</div>
 		</hero>
 
+		<!-- HEADER -->
+		<?php
+		while ( have_posts() ) :
+			the_post();
+			the_content();
+		endwhile; // End of the loop.
+		?>
 	</main><!-- #main -->
 
 <?php
