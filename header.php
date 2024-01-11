@@ -48,20 +48,33 @@
 						<a class="header-desktop-checkout-btn" href="#">
 							<p  class="header-desktop-checkout-btn-text">Checkout</p>
 							<div  class="header-desktop-checkout-number-cont">
-								<p class="header-desktop-checkout-number">0</p>
+								<p class="header-desktop-checkout-number">09</p>
 							</div>
 						</a>
 					</div>
 				</div>
 			</div>
 			<div class="header-mobile">
-				<div class="header-mobile-left"></div>
+				<div class="header-mobile-left">
+					<div class="hamburger-menu-cont">
+						<div class="hamburger-menu">
+							<div class="hamburger-menu-line"></div>
+							<div class="hamburger-menu-line"></div>
+							<div class="hamburger-menu-line"></div>
+						</div>
+					</div>
+					
+				</div>
 				<div class="header-mobile-center">
 					<a class="header-mobile-site-name-cont" href="<?php echo site_url(); ?>">
 						<p class="header-mobile-site-name"><?php echo get_bloginfo('name'); ?></p>
 					</a>
 				</div>
-				<div class="header-mobile-right"></div>
+				<div class="header-mobile-right">
+					<a href="#" class="header-mobile-cart-link">
+						<img class="header-mobile-cart-link-icon" src="<?php echo get_template_directory_uri().'/assets/icon/shoppingBag.svg' ?>">
+					</a>
+				</div>
 			</div>
 		</div>
 	</header><!-- #masthead -->

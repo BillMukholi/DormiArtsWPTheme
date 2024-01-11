@@ -140,6 +140,8 @@ add_action( 'widgets_init', 'dormi_arts_widgets_init' );
 function dormi_arts_scripts() {
 	wp_enqueue_style( 'dormi_arts-style', get_stylesheet_uri(), array(), _S_VERSION );
 	wp_style_add_data( 'dormi_arts-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'animate', get_template_directory_uri(). "/assets/library/animate.css", array(), _S_VERSION );
+	wp_style_add_data( 'animate', 'rtl', 'replace' );
 	wp_enqueue_style( 'OwlCarousel', get_template_directory_uri(). "/assets/library/OwlCarousel/dist/assets/owl.carousel.min.css", array(), _S_VERSION );
 	wp_style_add_data( 'OwlCarousel', 'rtl', 'replace' );
 	wp_enqueue_style( 'OwlCarouselDefault', get_template_directory_uri(). "/assets/library/OwlCarousel/dist/assets/owl.theme.default.min.css", array(), _S_VERSION );
