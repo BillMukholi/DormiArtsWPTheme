@@ -20,8 +20,8 @@ get_header();
 		<hero class="hero">
 			<div class="hero-cont">
 				<div class="hero-fg-cont">
-					<div class="hero-marquee-cont">
-						<div class="hero-marquee-offset">
+					<div class="hero-marquee-cont container">
+						<div class="hero-marquee-offset-left">
 							<div class="hero-marquee-offset-gradient"></div>
 						</div>
 						<div class="hero-marquee owl-carousel">
@@ -50,7 +50,7 @@ get_header();
 								<p class="hero-marquee-slide-text"><?php echo get_bloginfo('name'); ?></p>
 							</div>
 						</div>
-						<div class="hero-marquee-offset-2">
+						<div class="hero-marquee-offset-right">
 							<div class="hero-marquee-offset-gradient"></div>
 						</div>
 						</div>
@@ -69,6 +69,43 @@ get_header();
 				</div>
 			</div>
 		</hero>
+
+		<!-- COMPONENT CONTAINER -->
+		<div class="container">
+
+			<!-- LINK BTN -->
+			<div class="linkBtn">
+				<a class="linkBtn-link" href="#">
+					<p class="linkBtn-link-text">Link Btn Text</p>
+					<img  class="linkBtn-link-icon" src="<?php echo get_template_directory_uri().'/assets/icon/right.svg' ?>"/>
+				</a>
+			</div>
+
+			<!-- PROFILE PICTURES WIDGET -->
+			<div class="profile-picture-widget">
+				<div class="profile-picture-widget-cont">
+					<div class="profile-picture-widget-canvas">
+						<div class="profile-picture-widget-lvl-1-cont">
+						<div class="profile-picture-widget-lvl-1"></div>
+						</div>
+						<div class="profile-picture-widget-lvl-2-cont">
+							<div class="profile-picture-widget-lvl-2">
+								<div class="profile-picture-widget-lvl-2-element"></div>
+							</div>
+						</div>
+						<div class="profile-picture-widget-lvl-3-cont">
+							<div class="profile-picture-widget-lvl-3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+		</div>
 
 		<!-- HEADER -->
 		<?php

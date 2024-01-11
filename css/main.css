@@ -5,27 +5,27 @@
 }
 @media (min-width: 0px) {
   .container {
-    width: 90% !important;
+    width: 95% !important;
   }
 }
 @media (min-width: 319px) {
   .container {
-    width: 85% !important;
+    width: 95% !important;
   }
 }
 @media (min-width: 374px) {
   .container {
-    width: 80% !important;
+    width: 95% !important;
   }
 }
 @media (min-width: 424px) {
   .container {
-    width: 85% !important;
+    width: 95% !important;
   }
 }
 @media (min-width: 767px) {
   .container {
-    width: 75% !important;
+    width: 95% !important;
   }
 }
 @media (min-width: 1023px) {
@@ -318,29 +318,42 @@ p {
   height: 2cm;
   margin: auto;
 }
+@media (min-width: 0px) {
+  .hero .hero-cont .hero-fg-cont {
+    background: white;
+  }
+}
+@media (min-width: 1023px) {
+  .hero .hero-cont .hero-fg-cont {
+    background: transparent;
+  }
+}
 .hero .hero-cont .hero-fg-cont .hero-marquee-cont {
   position: relative;
   display: flex;
   width: 100%;
   height: 2cm;
 }
-.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset {
-  position: relative;
-  width: 10%;
+.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-left {
+  position: absolute;
+  width: 100vw;
   height: 2cm;
+  left: -100%;
   background: white;
 }
 @media (min-width: 0px) {
-  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset {
-    width: 10%;
+  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-left {
+    width: 2cm;
+    left: -2cm;
   }
 }
 @media (min-width: 1023px) {
-  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset {
-    width: 10%;
+  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-left {
+    width: 100%;
+    left: -100%;
   }
 }
-.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset .hero-marquee-offset-gradient {
+.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-left .hero-marquee-offset-gradient {
   position: absolute;
   width: 2cm;
   height: 100%;
@@ -348,23 +361,24 @@ p {
   background: linear-gradient(90deg, rgb(255, 255, 255), rgba(255, 255, 255, 0));
   z-index: 2;
 }
-.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-2 {
-  position: relative;
-  width: 2%;
+.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-right {
+  position: absolute;
   height: 2cm;
   background: white;
 }
 @media (min-width: 0px) {
-  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-2 {
-    width: 10%;
+  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-right {
+    width: 0%;
+    left: 100%;
   }
 }
 @media (min-width: 1023px) {
-  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-2 {
-    width: 2%;
+  .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-right {
+    width: 2cm;
+    left: 60%;
   }
 }
-.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-2 .hero-marquee-offset-gradient {
+.hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee-offset-right .hero-marquee-offset-gradient {
   position: absolute;
   width: 2cm;
   height: 100%;
@@ -385,7 +399,7 @@ p {
 }
 @media (min-width: 1023px) {
   .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee {
-    width: 40%;
+    width: 60%;
   }
 }
 .hero .hero-cont .hero-fg-cont .hero-marquee-cont .hero-marquee .hero-marquee-slide {
@@ -464,14 +478,115 @@ p {
     display: block;
   }
 }
-.heading {
+.linkBtn {
   position: relative;
+  display: block;
   width: 100%;
+  min-height: 2cm;
 }
-.heading .heading-cont {
-  position: relative;
-  width: 100%;
+.linkBtn .linkBtn-link {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  background: black;
+  border-radius: 10px;
+  padding: 15px 25px;
+  text-decoration: none;
 }
-.heading .heading-cont h1 {
+@media (min-width: 0px) {
+  .linkBtn .linkBtn-link {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 1023px) {
+  .linkBtn .linkBtn-link {
+    left: 0;
+    transform: translateX(0);
+  }
+}
+.linkBtn .linkBtn-link .linkBtn-link-text {
   font-family: "Playfair Display";
+  font-weight: 900;
+  color: white;
+  text-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+}
+.linkBtn .linkBtn-link .linkBtn-link-icon {
+  width: 1cm;
+  padding-left: 10%;
+}
+
+.profile-picture-widget {
+  position: relative;
+  width: 100%;
+  height: 11cm;
+  z-index: 2;
+}
+.profile-picture-widget .profile-picture-widget-cont {
+  position: relative;
+  width: 100%;
+  height: 11cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas {
+  position: relative;
+  width: 100%;
+  height: 11cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 5cm;
+  height: 5cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont .profile-picture-widget-lvl-1 {
+  position: relative;
+  width: 5cm;
+  height: 5cm;
+  border-radius: 100cm;
+  border: 2px solid black;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 8cm;
+  height: 8cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 {
+  position: relative;
+  width: 8cm;
+  height: 8cm;
+  border-radius: 100cm;
+  border: 2px solid black;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element {
+  position: absolute;
+  top: 0px;
+  height: 2cm;
+  width: 2cm;
+  border-radius: 100cm;
+  background: purple;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 11cm;
+  height: 11cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 {
+  position: relative;
+  width: 11cm;
+  height: 11cm;
+  border-radius: 100cm;
+  border: 2px solid rgba(0, 0, 0, 0.15);
 }/*# sourceMappingURL=main.css.map */
