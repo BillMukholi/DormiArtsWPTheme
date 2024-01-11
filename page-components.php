@@ -30,7 +30,9 @@ get_header();
 			<div class="hero-cont">
 				<div class="hero-fg-cont">
 					<div class="hero-marquee-cont">
-						<div class="hero-marquee-offset"></div>
+						<div class="hero-marquee-offset">
+							<div class="hero-marquee-offset-gradient"></div>
+						</div>
 						<div class="hero-marquee owl-carousel">
 							<div class="hero-marquee-slide">
 								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
@@ -46,7 +48,7 @@ get_header();
 							</div>
 							<div class="hero-marquee-slide">
 								<p class="hero-marquee-slide-text bold">Dormi Arts</p>
-							</div>
+							</div> 
 							<div class="hero-marquee-slide">
 								<p class="hero-marquee-slide-text">Dormi Arts</p>
 							</div>
@@ -56,6 +58,9 @@ get_header();
 							<div class="hero-marquee-slide">
 								<p class="hero-marquee-slide-text">Dormi Arts</p>
 							</div>
+						</div>
+						<div class="hero-marquee-offset-2">
+							<div class="hero-marquee-offset-gradient"></div>
 						</div>
 						</div>
 					</div>
