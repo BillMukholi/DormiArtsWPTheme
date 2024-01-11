@@ -14,9 +14,22 @@ heroCarousel.owlCarousel({
 
 //HERO MARQUEE
 heroMarquee.owlCarousel({
-    items: 5,
     autoplay:true,
-    autoplayTimeout:1000,
+    autoplayTimeout:3000,
     autoplaySpeed:4000,
-    loop:true
+    loop:true,
+    responsive:{
+        0:{
+            items:3
+        },
+        767:{
+            items:3
+        },
+        1023:{
+            items:4
+        },
+        1439:{
+            items:5
+        },
+    }
 });
