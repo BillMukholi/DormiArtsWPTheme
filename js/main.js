@@ -1,5 +1,6 @@
 let heroCarousel = $(".hero-carousel")
 let heroMarquee = $(".hero-marquee")
+let profilePictureWidget = $(".profile-picture-widget-lvl-carousel")
 
 $(document).ready(()=>{
     //HERO CAROUSEL
@@ -37,4 +38,39 @@ $(document).ready(()=>{
         }
     });
 
+    //PROFILE PICTURES WIDGET
+
+    profilePictureWidget.owlCarousel({
+        items:1,
+        animateIn: 'fadeIn',
+        animateOut: 'fadeOut',
+        autoplay:true,
+        autoplayTimeout:5000,
+        // autoplaySpeed:8000,
+        loop:true
+    });
+
 })
+
+let ring2Animation =  gsap.timeline({repeat:-1});
+ring2Animation.pause()
+
+ring2Animation.to(".profile-picture-widget-lvl-2",{
+    rotate: "350deg",
+    duration: 30,
+})
+ring2Animation.to(".profile-picture-widget-lvl-2-element",{
+    rotate: "-350deg",
+    duration: 30,
+},"-=30")
+ring2Animation.to(".profile-picture-widget-lvl-3",{
+    rotate: "350deg",
+    duration: 25,
+},"-=30")
+ring2Animation.to(".profile-picture-widget-lvl-3-element",{
+    rotate: "-350deg",
+    duration: 25,
+},"-=25")
+
+
+ring2Animation.play()

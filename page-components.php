@@ -86,15 +86,54 @@ get_header();
 				<div class="profile-picture-widget-cont">
 					<div class="profile-picture-widget-canvas">
 						<div class="profile-picture-widget-lvl-1-cont">
-						<div class="profile-picture-widget-lvl-1"></div>
+							<div class="profile-picture-widget-lvl-1">
+								<div class="profile-picture-widget-lvl-carousel owl-carousel">
+									<div class="profile-picture-widget-lvl-carousel-slide">
+										<img src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+									<div class="profile-picture-widget-lvl-carousel-slide">
+										<img src="<?php echo get_template_directory_uri().'/assets/img/sq1080.jpg' ?>">
+									</div>
+								</div>
+							</div>
 						</div>
 						<div class="profile-picture-widget-lvl-2-cont">
 							<div class="profile-picture-widget-lvl-2">
-								<div class="profile-picture-widget-lvl-2-element"></div>
+								<div class="profile-picture-widget-lvl-2-element-cont">
+									<div class="profile-picture-widget-lvl-2-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
+								<div class="profile-picture-widget-lvl-2-element-cont">
+									<div class="profile-picture-widget-lvl-2-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
+								<div class="profile-picture-widget-lvl-2-element-cont">
+									<div class="profile-picture-widget-lvl-2-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
 							</div>
 						</div>
 						<div class="profile-picture-widget-lvl-3-cont">
-							<div class="profile-picture-widget-lvl-3"></div>
+							<div class="profile-picture-widget-lvl-3">
+								<div class="profile-picture-widget-lvl-3-element-cont">
+									<div class="profile-picture-widget-lvl-3-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
+								<div class="profile-picture-widget-lvl-3-element-cont">
+									<div class="profile-picture-widget-lvl-3-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
+								<div class="profile-picture-widget-lvl-3-element-cont">
+									<div class="profile-picture-widget-lvl-3-element">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
