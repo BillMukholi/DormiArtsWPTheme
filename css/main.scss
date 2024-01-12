@@ -563,7 +563,7 @@ p{
         }
         @media(min-width:1023px){
             left: 0;
-            transform: translateX(0);;
+            transform: translateX(0);
         }
         @media(min-width:1439px){
         }
@@ -639,6 +639,7 @@ p{
                         width: 5cm;
                         height: 5cm;
                         background: pink;
+                        transform: scale(1.2);
                     }
                     img{
                         width: 110%;
@@ -742,6 +743,96 @@ p{
                     .profile-picture-widget-lvl-3-element-cont:nth-child(3){
                         bottom: 2.75cm;
                         right: 0cm;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//WORDS BANNER
+
+.words-widget{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    @media(min-width:0px){
+        height: 40vh;
+    }
+    @media(min-width:319px){
+
+    }
+    @media(min-width:374px){
+    }
+    @media(min-width:424px){
+    }
+    @media(min-width:767px){
+    }
+    @media(min-width:1023px){
+    }
+    @media(min-width:1439px){
+        height: 80vh;
+    }
+    .words-widget{
+        position: relative;
+        .words-widget-fg-cont{
+            position: absolute;
+            mix-blend-mode: screen;
+            z-index: 2;
+            .words-widget-fg{
+                position: relative;
+                width: 100%;
+                .words-widget-img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .words-widget-bg-cont{
+            .words-widget-bg{
+                .words-widget-text{
+                    text-align: center;
+                    font-family: 'Playfair Display';
+                    font-weight: 900;
+                    text-wrap: nowrap;
+                    margin: -5% 0px;
+                    padding: 0px;
+                    @media(min-width:0px){
+                        font-size: 13vw;
+                    }
+                    @media(min-width:319px){
+                        // font-size: 4em;
+                    }
+                    @media(min-width:374px){
+                    }
+                    @media(min-width:424px){
+                    }
+                    @media(min-width:767px){
+                        font-size: 10vw;
+                    }
+                    @media(min-width:1023px){
+                        font-size: 10em;
+                    }
+                    @media(min-width:1439px){
+                        font-size: 13em;
+                    }
+                }
+                .words-widget-text:nth-last-child(1){
+                    @media(min-width:0px){
+                        display: block;
+                    }
+                    @media(min-width:319px){
+                    }
+                    @media(min-width:374px){
+                    }
+                    @media(min-width:424px){
+                    }
+                    @media(min-width:767px){
+                    }
+                    @media(min-width:1023px){
+                        display: none;
+                    }
+                    @media(min-width:1439px){
                     }
                 }
             }

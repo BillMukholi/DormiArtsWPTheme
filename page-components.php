@@ -89,10 +89,13 @@ get_header();
 							<div class="profile-picture-widget-lvl-1">
 								<div class="profile-picture-widget-lvl-carousel owl-carousel">
 									<div class="profile-picture-widget-lvl-carousel-slide">
-										<img src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
 									</div>
 									<div class="profile-picture-widget-lvl-carousel-slide">
-										<img src="<?php echo get_template_directory_uri().'/assets/img/sq1080.jpg' ?>">
+										<img src="<?php echo get_template_directory_uri().'/assets/img/avatar3.jpg' ?>">
+									</div>
+									<div class="profile-picture-widget-lvl-carousel-slide">
+										<img src="<?php echo get_template_directory_uri().'/assets/img/avatar6.jpg' ?>">
 									</div>
 								</div>
 							</div>
@@ -101,17 +104,17 @@ get_header();
 							<div class="profile-picture-widget-lvl-2">
 								<div class="profile-picture-widget-lvl-2-element-cont">
 									<div class="profile-picture-widget-lvl-2-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
 									</div>
 								</div>
 								<div class="profile-picture-widget-lvl-2-element-cont">
 									<div class="profile-picture-widget-lvl-2-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar3.jpg' ?>">
 									</div>
 								</div>
 								<div class="profile-picture-widget-lvl-2-element-cont">
 									<div class="profile-picture-widget-lvl-2-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar6.jpg' ?>">
 									</div>
 								</div>
 							</div>
@@ -120,20 +123,39 @@ get_header();
 							<div class="profile-picture-widget-lvl-3">
 								<div class="profile-picture-widget-lvl-3-element-cont">
 									<div class="profile-picture-widget-lvl-3-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
 									</div>
 								</div>
 								<div class="profile-picture-widget-lvl-3-element-cont">
 									<div class="profile-picture-widget-lvl-3-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar3.jpg' ?>">
 									</div>
 								</div>
 								<div class="profile-picture-widget-lvl-3-element-cont">
 									<div class="profile-picture-widget-lvl-3-element">
-										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar1080.jpg' ?>">
+										<img class="profile-picture" src="<?php echo get_template_directory_uri().'/assets/img/avatar6.jpg' ?>">
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- WORDS BANNER -->
+			<div class="words-widget">
+				<div class="words-widget container">
+					<div class="words-widget-fg-cont">
+						<div class="words-widget-fg">
+							<img  class="words-widget-img" src="<?php echo get_template_directory_uri().'/assets/img/paint.jpg' ?>">
+						</div>
+					</div>
+					<div class="words-widget-bg-cont">
+						<div class="words-widget-bg">
+							<p class="words-widget-text">Dormi Arts</p>
+							<p class="words-widget-text">Dormi Arts</p>
+							<p class="words-widget-text">Dormi Arts</p>
+							<p class="words-widget-text">Dormi Arts</p>
 						</div>
 					</div>
 				</div>

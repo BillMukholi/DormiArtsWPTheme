@@ -571,6 +571,7 @@ p {
   width: 5cm;
   height: 5cm;
   background: pink;
+  transform: scale(1.2);
 }
 .profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont .profile-picture-widget-lvl-1 img {
   width: 110%;
@@ -674,4 +675,74 @@ p {
 .profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont:nth-child(3) {
   bottom: 2.75cm;
   right: 0cm;
+}
+
+.words-widget {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 0px) {
+  .words-widget {
+    height: 40vh;
+  }
+}
+@media (min-width: 1439px) {
+  .words-widget {
+    height: 80vh;
+  }
+}
+.words-widget .words-widget {
+  position: relative;
+}
+.words-widget .words-widget .words-widget-fg-cont {
+  position: absolute;
+  mix-blend-mode: screen;
+  z-index: 2;
+}
+.words-widget .words-widget .words-widget-fg-cont .words-widget-fg {
+  position: relative;
+  width: 100%;
+}
+.words-widget .words-widget .words-widget-fg-cont .words-widget-fg .words-widget-img {
+  width: 100%;
+  height: auto;
+}
+.words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text {
+  text-align: center;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  text-wrap: nowrap;
+  margin: -5% 0px;
+  padding: 0px;
+}
+@media (min-width: 0px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text {
+    font-size: 13vw;
+  }
+}
+@media (min-width: 767px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text {
+    font-size: 10vw;
+  }
+}
+@media (min-width: 1023px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text {
+    font-size: 10em;
+  }
+}
+@media (min-width: 1439px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text {
+    font-size: 13em;
+  }
+}
+@media (min-width: 0px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text:nth-last-child(1) {
+    display: block;
+  }
+}
+@media (min-width: 1023px) {
+  .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text:nth-last-child(1) {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
