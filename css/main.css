@@ -196,6 +196,7 @@ p {
 }
 .header .header-cont .header-mobile .header-mobile-center .header-mobile-site-name-cont {
   position: absolute;
+  display: block;
   left: 50%;
   top: 50%;
   margin: 0px;
@@ -203,6 +204,8 @@ p {
   transform: translate(-50%, -50%);
   color: black;
   text-decoration: none;
+  text-wrap: nowrap;
+  white-space: nowrap;
 }
 .header .header-cont .header-mobile .header-mobile-center .header-mobile-site-name-cont .header-mobile-site-name {
   padding: 0px;
@@ -213,6 +216,8 @@ p {
   font-weight: 900;
   font-size: 1.2em;
   text-wrap: nowrap;
+  white-space: nowrap;
+  width: 100%;
 }
 .header .header-cont .header-mobile .header-mobile-left {
   position: relative;

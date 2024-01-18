@@ -6,6 +6,8 @@ $(document).ready(()=>{
     //HERO CAROUSEL
     heroCarousel.owlCarousel({
         items:1,
+        touchDrag:false,
+        mouseDrag:false,
         animateIn: 'fadeIn',
         animateOut: 'fadeOut',
         autoplay:true,
