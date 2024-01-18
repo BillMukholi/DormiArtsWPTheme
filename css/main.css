@@ -745,4 +745,19 @@ p {
   .words-widget .words-widget .words-widget-bg-cont .words-widget-bg .words-widget-text:nth-last-child(1) {
     display: none;
   }
+}
+.portfolio-carousel-cont {
+  position: relative;
+  width: 100%;
+}
+.portfolio-carousel-cont .portfolio-carousel {
+  position: relative;
+  width: 100%;
+}
+.portfolio-carousel-cont .portfolio-carousel .portfolio-carousel-slide {
+  position: relative;
+  width: 100%;
+  height: 5cm;
+  background: pink;
+  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */
