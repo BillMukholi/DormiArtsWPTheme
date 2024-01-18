@@ -315,6 +315,67 @@ p{
     }
 }
 
+//HEADER MOBILE
+.mobile-navigation-cont{
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: white;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 2.5cm;
+    @media(min-width:0px){
+        display: none;
+        opacity: 0;
+    }
+    @media(min-width:319px){
+    }
+    @media(min-width:374px){
+    }
+    @media(min-width:424px){
+    }
+    @media(min-width:767px){
+    }
+    @media(min-width:1023px){
+        display: none;
+        opacity: 0;
+    }
+    @media(min-width:1439px){
+    }
+    .mobile-navigation{
+        position: relative;
+        width: 100%;
+        height: auto;
+        .mobile-navigation-list{
+            position: relative;
+            padding: 0px;
+            margin: 0px;
+            list-style-type: none;
+            li{
+                height: 1.75cm;
+                margin-bottom: 2px;
+                border-bottom: 1px solid black;
+                a{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 7%;
+                    width: inherit;
+                    height: inherit;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+            li:hover{
+                background: rgb(222, 222, 222);
+            }
+        }
+    }
+}
+
 //HERO CAROUSEL
 .hero{
     position: relative;

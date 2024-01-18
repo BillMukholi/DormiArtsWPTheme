@@ -48,7 +48,7 @@
 						<a class="header-desktop-checkout-btn" href="#">
 							<p  class="header-desktop-checkout-btn-text">Checkout</p>
 							<div  class="header-desktop-checkout-number-cont">
-								<p class="header-desktop-checkout-number">09</p>
+								<p class="header-desktop-checkout-number">0</p>
 							</div>
 						</a>
 					</div>
@@ -73,11 +73,28 @@
 				<div class="header-mobile-right">
 					<a href="#" class="header-mobile-cart-link">
 						<div class="header-mobile-cart-number-cont">
-							<p class="header-mobile-cart-number">09</p>
+							<p class="header-mobile-cart-number">0</p>
 						</div>
 						<img class="header-mobile-cart-icon" src="<?php echo get_template_directory_uri().'/assets/icon/shoppingBag.svg' ?>">
 					</a>
 				</div>
 			</div>
 		</div>
-	</header><!-- #masthead -->
+	</header>
+	<div class="mobile-navigation-cont">
+		<div class="mobile-navigation">
+			<ul class="mobile-navigation-list">
+				<?php
+					wp_nav_menu(array(
+						'menu' => 'primary',
+						'container' => false,
+						'items_wrap' => '%3$s',
+					)); 
+
+				?>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- #masthead -->

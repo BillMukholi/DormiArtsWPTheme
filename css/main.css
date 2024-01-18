@@ -299,6 +299,60 @@ p {
   height: auto;
 }
 
+.mobile-navigation-cont {
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: white;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 2.5cm;
+}
+@media (min-width: 0px) {
+  .mobile-navigation-cont {
+    display: none;
+    opacity: 0;
+  }
+}
+@media (min-width: 1023px) {
+  .mobile-navigation-cont {
+    display: none;
+    opacity: 0;
+  }
+}
+.mobile-navigation-cont .mobile-navigation {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.mobile-navigation-cont .mobile-navigation .mobile-navigation-list {
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+.mobile-navigation-cont .mobile-navigation .mobile-navigation-list li {
+  height: 1.75cm;
+  margin-bottom: 2px;
+  border-bottom: 1px solid black;
+}
+.mobile-navigation-cont .mobile-navigation .mobile-navigation-list li a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 7%;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  color: black;
+}
+.mobile-navigation-cont .mobile-navigation .mobile-navigation-list li:hover {
+  background: rgb(222, 222, 222);
+}
+
 .hero {
   position: relative;
   width: 100%;
