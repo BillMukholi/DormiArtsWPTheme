@@ -6,14 +6,26 @@ $(document).ready(()=>{
     //HERO CAROUSEL
     heroCarousel.owlCarousel({
         items:1,
-        touchDrag:false,
-        mouseDrag:false,
         animateIn: 'fadeIn',
         animateOut: 'fadeOut',
         autoplay:true,
         autoplayTimeout:6000,
         // autoplaySpeed:8000,
-        loop:true
+        loop:true,
+        responsive:{
+            0:{
+                touchDrag:true,
+                mouseDrag:true,
+            },
+            700:{
+                touchDrag:true,
+                mouseDrag:true,
+            },
+            1023:{
+                touchDrag:false,
+                mouseDrag:false,
+            }
+        }
     });
 
     //HERO MARQUEE

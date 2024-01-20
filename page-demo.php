@@ -55,6 +55,16 @@ get_header();
 					</div>
 				</div>
 			<div class="hero-bg-cont">
+				<div class="hero-control-cont">
+					<div class="hero-control">
+						<p class="hero-control-text"><</p>
+					</div>
+				</div>
+				<div class="hero-control-cont">
+					<div class="hero-control">
+						<p class="hero-control-text">></p>
+					</div>
+				</div>
 				<div class="hero-carousel owl-carousel">
 					<div class="hero-carousel-slide">
 						<img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/1-m.jpg">

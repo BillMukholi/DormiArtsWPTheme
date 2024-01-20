@@ -538,6 +538,38 @@ p{
             height: 95vh;
             z-index: 1;
             overflow: hidden;
+            .hero-control-cont{
+                position: absolute;
+                width: 1.5cm;
+                height: 1.5cm;
+                top: 50%;
+                transform: translateY(-50%);
+                z-index: 100;
+                left: 5vw;
+                .hero-control{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    width: inherit;
+                    height: inherit;
+                    background: rgba(0, 0, 0, 0.5);
+                    border-radius: 10000cm;
+                    cursor: pointer;
+                    p{
+                        display: block;
+                        margin: 0px;
+                        text-align: center;
+                        margin: auto;
+                        padding: 0;
+                        padding-top: 3px;
+                        color: white;
+                    }
+                }
+            }
+            .hero-control-cont:nth-child(2){
+                right: 5vw;
+                left: unset;
+            }
             .hero-carousel{
                 position: relative;
                 width: 100%;
