@@ -111,6 +111,25 @@ ring2Animation.play()
 
 
 //PORTFOLIO CAROUSEL
+let portfolioCarousel = $(".portfolio-carousel")
+portfolioCarousel.owlCarousel({
+    dots:true,
+    loop:true,
+    responsive:{
+        0:{
+            items:2
+        },
+        767:{
+            items:3
+        },
+        1023:{
+            items:3
+        },
+        1439:{
+            items:3
+        },
+    }
+});
 
 
 //MENU BTN

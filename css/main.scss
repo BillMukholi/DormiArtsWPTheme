@@ -958,15 +958,108 @@ p{
 .portfolio-carousel-cont{
     position: relative;
     width: 100%;
+    height: 12cm;
     .portfolio-carousel{
         position: relative;
         width: 100%;
+        height: 12cm;
         .portfolio-carousel-slide{
             position: relative;
             width: 100%;
-            height: 5cm;
-            background: pink;
-            border: 1px solid black;
+            // background: pink;
+            // border: 1px solid black;
+            @media(min-width:0px){
+                height: 8cm;
+            }
+            @media(min-width:319px){
+            }
+            @media(min-width:374px){
+            }
+            @media(min-width:424px){
+                height: 7cm;
+            }
+            @media(min-width:767px){
+                height: 10cm;
+            }
+            @media(min-width:1023px){
+                height: 12cm;
+            }
+            @media(min-width:1439px){
+            }
+            .portfolio-carousel-slide-link{
+                position: relative;
+                display: block;
+                margin: auto;
+                width: 90%;
+                height: 100%;
+                overflow: hidden;
+                border-radius: 30px;
+                .portfolio-carousel-slide-fg-cont{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    z-index: 2;
+                    width: 100%;
+                    height: 100%;
+                    .portfolio-carousel-slide-fg{
+                        position: absolute;
+                        width: 80%;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 8%;
+                        color: white;
+                        .portfolio-carousel-slide-title{
+                            text-wrap: nowrap;
+                            font-family: 'Playfair Display';
+                            font-weight: 900;
+                            font-size: 1.7em;
+                            margin: 0px;
+                            @media(min-width:0px){
+                                font-size: 1.2em;
+                            }
+                            @media(min-width:319px){
+                            }
+                            @media(min-width:374px){
+                            }
+                            @media(min-width:424px){
+                            }
+                            @media(min-width:767px){
+                                font-size: 1.5em;
+                            }
+                            @media(min-width:1023px){
+                                font-size: 1.7em;
+                            }
+                            @media(min-width:1439px){
+                            }
+                        }
+                        .portfolio-carousel-slide-subtitle{
+                            text-wrap: nowrap;
+                            font-family: 'Poppins';
+                            font-weight: 300;
+                            font-size: 1em;
+                            margin: 0px;
+                        }
+                    }
+                }
+                .portfolio-carousel-slide-bg-cont{
+                    position: absolute;
+                    top: 0;
+                    z-index: 1;
+                    width: 100%;
+                    height: 100%;
+                    background: pink;
+                    .portfolio-carousel-slide-bg-gradient{
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        height: 50%;
+                        background:  linear-gradient(180deg, #FFFFFF 0% 0%, #000000 100% 100%);
+                        z-index: 2;
+                        mix-blend-mode: Multiply;
+
+                    }
+                }
+            }
         }
 
     }

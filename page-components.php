@@ -147,7 +147,7 @@ get_header();
 				<div class="words-widget container">
 					<div class="words-widget-fg-cont">
 						<div class="words-widget-fg">
-							<img  class="words-widget-img" src="<?php echo get_template_directory_uri().'/assets/img/paint.jpg' ?>">
+							<img class="words-widget-img" src="<?php echo get_template_directory_uri().'/assets/img/paint.jpg' ?>">
 						</div>
 					</div>
 					<div class="words-widget-bg-cont">
@@ -166,29 +166,84 @@ get_header();
 				<div class="portfolio-carousel owl-carousel">
 					<div class="portfolio-carousel-slide">
 						<a class="portfolio-carousel-slide-link" href="#">
-							Link
+							<div class="portfolio-carousel-slide-fg-cont">
+								<div class="portfolio-carousel-slide-fg">
+									<p class="portfolio-carousel-slide-title">Doors & Portal</p>
+									<p class="portfolio-carousel-slide-subtitle">Title Here</p>
+								</div>
+							</div>
+							<div class="portfolio-carousel-slide-bg-cont">
+								<div class="portfolio-carousel-slide-bg-gradient"></div>
+								<img class="portfolio-carousel-slide-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1-m.jpg' ?>">
+							</div>
 						</a>
 					</div>
 					<div class="portfolio-carousel-slide">
-						<a href="#">
-							Link
+						<a class="portfolio-carousel-slide-link" href="#">
+							<div class="portfolio-carousel-slide-fg-cont">
+								<div class="portfolio-carousel-slide-fg">
+									<p class="portfolio-carousel-slide-title">Doors & Portal</p>
+									<p class="portfolio-carousel-slide-subtitle">Title Here</p>
+								</div>
+							</div>
+							<div class="portfolio-carousel-slide-bg-cont">
+								<div class="portfolio-carousel-slide-bg-gradient"></div>
+								<img class="portfolio-carousel-slide-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1-m.jpg' ?>">
+							</div>
 						</a>
 					</div>
 					<div class="portfolio-carousel-slide">
-						<a href="#">
-							Link
+						<a class="portfolio-carousel-slide-link" href="#">
+							<div class="portfolio-carousel-slide-fg-cont">
+								<div class="portfolio-carousel-slide-fg">
+									<p class="portfolio-carousel-slide-title">Doors & Portal</p>
+									<p class="portfolio-carousel-slide-subtitle">Title Here</p>
+								</div>
+							</div>
+							<div class="portfolio-carousel-slide-bg-cont">
+								<div class="portfolio-carousel-slide-bg-gradient"></div>
+								<img class="portfolio-carousel-slide-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1-m.jpg' ?>">
+							</div>
 						</a>
 					</div>
 					<div class="portfolio-carousel-slide">
-						<a href="#">
-							Link
+						<a class="portfolio-carousel-slide-link" href="#">
+							<div class="portfolio-carousel-slide-fg-cont">
+								<div class="portfolio-carousel-slide-fg">
+									<p class="portfolio-carousel-slide-title">Doors & Portal</p>
+									<p class="portfolio-carousel-slide-subtitle">Title Here</p>
+								</div>
+							</div>
+							<div class="portfolio-carousel-slide-bg-cont">
+								<div class="portfolio-carousel-slide-bg-gradient"></div>
+								<img class="portfolio-carousel-slide-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1-m.jpg' ?>">
+							</div>
 						</a>
 					</div>
 					<div class="portfolio-carousel-slide">
-						<a href="#">
-							Link
+						<a class="portfolio-carousel-slide-link" href="#">
+							<div class="portfolio-carousel-slide-fg-cont">
+								<div class="portfolio-carousel-slide-fg">
+									<p class="portfolio-carousel-slide-title">Doors & Portal</p>
+									<p class="portfolio-carousel-slide-subtitle">Title Here</p>
+								</div>
+							</div>
+							<div class="portfolio-carousel-slide-bg-cont">
+								<div class="portfolio-carousel-slide-bg-gradient"></div>
+								<img class="portfolio-carousel-slide-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1-m.jpg' ?>">
+							</div>
 						</a>
 					</div>
+
+				</div>
+			</div>
+
+			<div class="splash-container">
+				<div class="splash-fg-cont">
+					<div class="splash-fg-gradient"></div>
+				</div>
+				<div class="splash-bg-cont">
+					<img class="words-widget-img" src="<?php echo get_template_directory_uri().'/assets/img/landscape1920.jpg' ?>">
 				</div>
 			</div>
 
