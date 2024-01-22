@@ -165,7 +165,7 @@ get_header();
 			<div class="portfolio-carousel-cont">
 				<div class="portfolio-carousel owl-carousel">
 					<div class="portfolio-carousel-slide">
-						<a href="#">
+						<a class="portfolio-carousel-slide-link" href="#">
 							Link
 						</a>
 					</div>

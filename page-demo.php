@@ -67,12 +67,12 @@ get_header();
 				</div>
 				<div class="hero-carousel owl-carousel">
 					<div class="hero-carousel-slide">
-						<img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/1-m.jpg">
-						<img class="hero-carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()?>/assets/img/1.jpg">
+						<img class="hero-carousel-slide-img-mobile hero-img" src="<?php echo get_template_directory_uri()?>/assets/img/1-m.jpg">
+						<img class="hero-carousel-slide-img-desktop hero-img" src="<?php echo get_template_directory_uri()?>/assets/img/1.jpg">
 					</div>
 					<div class="hero-carousel-slide">
-						<img class="hero-carousel-slide-img-mobile" src="<?php echo get_template_directory_uri()?>/assets/img/2-m.jpg">
-						<img class="hero-carousel-slide-img-desktop" src="<?php echo get_template_directory_uri()?>/assets/img/2.jpg">
+						<img class="hero-carousel-slide-img-mobile hero-img" src="<?php echo get_template_directory_uri()?>/assets/img/2-m.jpg">
+						<img class="hero-carousel-slide-img-desktop hero-img" src="<?php echo get_template_directory_uri()?>/assets/img/2.jpg">
 					</div>
 				</div>
 			</div>

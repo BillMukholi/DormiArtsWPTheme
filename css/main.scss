@@ -385,12 +385,12 @@ p{
 .hero{
     position: relative;
     width: 100%;
-    height: 95vh;
+    height: 90vh;
     background: yellow;
     .hero-cont{
         position: relative;
         width: 100%;
-        height: 95vh;
+        height: 90vh;
         .hero-fg-cont{
             position: absolute;
             bottom: 0px;
@@ -535,7 +535,7 @@ p{
         .hero-bg-cont{
             position: relative;
             width: 100%;
-            height: 95vh;
+            height: 90vh;
             z-index: 1;
             overflow: hidden;
             .hero-control-cont{
@@ -546,6 +546,22 @@ p{
                 transform: translateY(-50%);
                 z-index: 100;
                 left: 5vw;
+                @media(min-width:0px){
+                    display: none;
+                }
+                @media(min-width:319px){
+                }
+                @media(min-width:374px){
+                }
+                @media(min-width:424px){
+                }
+                @media(min-width:767px){
+                }
+                @media(min-width:1023px){
+                    display: block;
+                }
+                @media(min-width:1439px){
+                }
                 .hero-control{
                     position: relative;
                     display: flex;
@@ -573,13 +589,13 @@ p{
             .hero-carousel{
                 position: relative;
                 width: 100%;
-                height: 95vh;
+                height: 90vh;
                 transform: scale(1.8);
                 .hero-carousel-slide{
                     position: relative;
                     overflow: hidden;
                     width: 100vw;
-                    height: 95vh;
+                    height: 90vh;
                     .hero-carousel-slide-img-mobile{
                         @media(min-width:0px){
                             display: block;

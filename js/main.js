@@ -3,6 +3,13 @@ let heroMarquee = $(".hero-marquee")
 let profilePictureWidget = $(".profile-picture-widget-lvl-carousel")
 
 $(document).ready(()=>{
+
+    //HERO ANIMATION
+    let heroAnimation = gsap.timeline()
+    heroAnimation.pause()
+    heroAnimation.to(".hero-img",{scale:1.15, repeat:-1, duration:6.1})
+    heroAnimation.restart()
+
     //HERO CAROUSEL
     heroCarousel.owlCarousel({
         items:1,
@@ -27,6 +34,19 @@ $(document).ready(()=>{
             }
         }
     });
+
+    //HERO CAROUSEL ANIMATION
+    let heroCarouselControl =  document.getElementsByClassName("hero-control-cont")
+    heroCarouselControl[0].addEventListener('click',()=>{
+        heroCarousel.trigger('prev.owl.carousel');
+        heroAnimation.restart()
+
+    })
+    heroCarouselControl[1].addEventListener('click',()=>{
+        heroCarousel.trigger('next.owl.carousel');
+        heroAnimation.restart()
+
+    })
 
     //HERO MARQUEE
     heroMarquee.owlCarousel({

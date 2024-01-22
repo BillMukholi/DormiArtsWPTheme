@@ -361,13 +361,13 @@ p {
 .hero {
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   background: yellow;
 }
 .hero .hero-cont {
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
 }
 .hero .hero-cont .hero-fg-cont {
   position: absolute;
@@ -485,7 +485,7 @@ p {
 .hero .hero-cont .hero-bg-cont {
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   z-index: 1;
   overflow: hidden;
 }
@@ -497,6 +497,16 @@ p {
   transform: translateY(-50%);
   z-index: 100;
   left: 5vw;
+}
+@media (min-width: 0px) {
+  .hero .hero-cont .hero-bg-cont .hero-control-cont {
+    display: none;
+  }
+}
+@media (min-width: 1023px) {
+  .hero .hero-cont .hero-bg-cont .hero-control-cont {
+    display: block;
+  }
 }
 .hero .hero-cont .hero-bg-cont .hero-control-cont .hero-control {
   position: relative;
@@ -524,14 +534,14 @@ p {
 .hero .hero-cont .hero-bg-cont .hero-carousel {
   position: relative;
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   transform: scale(1.8);
 }
 .hero .hero-cont .hero-bg-cont .hero-carousel .hero-carousel-slide {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 95vh;
+  height: 90vh;
 }
 .hero .hero-cont .hero-bg-cont .hero-carousel .hero-carousel-slide .hero-carousel-slide-img-mobile {
   position: absolute;
