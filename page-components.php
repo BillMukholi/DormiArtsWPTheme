@@ -163,7 +163,7 @@ get_header();
 
 			<!-- PORTFOLIO CAROUSEL -->
 			<div class="portfolio-carousel-cont">
-				<div class="portfolio-carousel owl-carousel">
+				<div class="portfolio-carousel owl-carousel owl-theme">
 					<div class="portfolio-carousel-slide">
 						<a class="portfolio-carousel-slide-link" href="#">
 							<div class="portfolio-carousel-slide-fg-cont">
@@ -238,12 +238,105 @@ get_header();
 				</div>
 			</div>
 
-			<div class="splash-container">
-				<div class="splash-fg-cont">
-					<div class="splash-fg-gradient"></div>
+
+			<div class="testimonial-cont">
+				<div class="testimonial-area">
+					<div class="testimonial-item-cont">
+						<div class="testimonial-item">
+							<div class="testimonial-item-top">
+								<div class="testimonial-item-top-left">
+									<div class="testimonial-item-top-left-img-cont">
+										<img class="testimonial-item-top-left-img" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
+									</div>
+								</div>
+								<div class="testimonial-item-top-right">
+									<p class="testimonial-item-top-username">John Doe Username</p>
+									<p class="testimonial-item-top-company">Company</p>
+								</div>
+							</div>
+							<div class="testimonial-item-bottom">
+								<div  class="testimonial-item-bottom-line"></div>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo corporis illum, repellendus debitis omnis optio similique assumenda adipisci alias autem vitae recusandae in ipsa sit! Deserunt voluptatem sint velit quibusdam.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-line-cont">
+						<div class="testimonial-circle"></div>
+						<div class="testimonial-line"></div>
+					</div>
+					<div class="testimonial-item-cont">
+						<div class="testimonial-item">
+							<div class="testimonial-item-top">
+								<div class="testimonial-item-top-left">
+									<div class="testimonial-item-top-left-img-cont">
+										<img class="testimonial-item-top-left-img" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
+									</div>
+								</div>
+								<div class="testimonial-item-top-right">
+									<p class="testimonial-item-top-username">Jane Doe Username</p>
+									<p class="testimonial-item-top-company">Company</p>
+								</div>
+							</div>
+							<div class="testimonial-item-bottom">
+								<div  class="testimonial-item-bottom-line"></div>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo corporis illum, repellendus debitis omnis optio similique assumenda adipisci alias autem vitae recusandae in ipsa sit! Deserunt voluptatem sint velit quibusdam.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="splash-bg-cont">
-					<img class="words-widget-img" src="<?php echo get_template_directory_uri().'/assets/img/landscape1920.jpg' ?>">
+			</div>
+			<div class="testimonial-cont">
+				<div class="testimonial-area">
+					<div class="testimonial-item-cont">
+						<div class="testimonial-item">
+							<div class="testimonial-item-top">
+								<div class="testimonial-item-top-left">
+									<div class="testimonial-item-top-left-img-cont">
+										<img class="testimonial-item-top-left-img" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
+									</div>
+								</div>
+								<div class="testimonial-item-top-right">
+									<p class="testimonial-item-top-username">John Doe Username</p>
+									<p class="testimonial-item-top-company">Company</p>
+								</div>
+							</div>
+							<div class="testimonial-item-bottom">
+								<div  class="testimonial-item-bottom-line"></div>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo corporis illum, repellendus debitis omnis optio similique assumenda adipisci alias autem vitae recusandae in ipsa sit! Deserunt voluptatem sint velit quibusdam.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="testimonial-line-cont">
+						<div class="testimonial-circle"></div>
+						<div class="testimonial-line"></div>
+					</div>
+					<div class="testimonial-item-cont">
+						<div class="testimonial-item">
+							<div class="testimonial-item-top">
+								<div class="testimonial-item-top-left">
+									<div class="testimonial-item-top-left-img-cont">
+										<img class="testimonial-item-top-left-img" src="<?php echo get_template_directory_uri().'/assets/img/avatar2.jpg' ?>">
+									</div>
+								</div>
+								<div class="testimonial-item-top-right">
+									<p class="testimonial-item-top-username">Jane Doe Username</p>
+									<p class="testimonial-item-top-company">Company</p>
+								</div>
+							</div>
+							<div class="testimonial-item-bottom">
+								<div  class="testimonial-item-bottom-line"></div>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo corporis illum, repellendus debitis omnis optio similique assumenda adipisci alias autem vitae recusandae in ipsa sit! Deserunt voluptatem sint velit quibusdam.
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
