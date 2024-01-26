@@ -340,7 +340,18 @@ get_header();
 				</div>
 			</div>
 
-
+			<!-- PAGE HEADER -->
+			<div class="page-header-cont">
+				<div class="page-header">
+					<div class="page-header-fg">
+						<p>Page Title</p>
+					</div>
+					<div class="page-header-bg">
+						<div class="page-header-bg-gradient"></div>
+						<img class="page-header-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1.jpg' ?>">
+					</div>
+				</div>
+			</div>
 
 
 
