@@ -1154,12 +1154,31 @@ p {
   width: 100%;
   height: 50vh;
 }
+@media (min-width: 0px) {
+  .page-header-cont {
+    height: 30vh;
+  }
+}
+@media (min-width: 1023px) {
+  .page-header-cont {
+    height: 50vh;
+  }
+}
 .page-header-cont .page-header {
   position: relative;
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border-radius: 20px;
+}
+@media (min-width: 0px) {
+  .page-header-cont .page-header {
+    border-radius: 0px;
+  }
+}
+@media (min-width: 1023px) {
+  .page-header-cont .page-header {
+    border-radius: 20px;
+  }
 }
 .page-header-cont .page-header .page-header-fg {
   position: absolute;
@@ -1167,6 +1186,30 @@ p {
   width: 100%;
   height: 100%;
   top: 0;
+}
+.page-header-cont .page-header .page-header-fg .page-header-fg-title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display";
+  font-weight: 900;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  text-wrap: nowrap;
+  text-align: center;
+}
+@media (min-width: 0px) {
+  .page-header-cont .page-header .page-header-fg .page-header-fg-title {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1023px) {
+  .page-header-cont .page-header .page-header-fg .page-header-fg-title {
+    font-size: 3em;
+  }
 }
 .page-header-cont .page-header .page-header-bg {
   position: absolute;
@@ -1181,7 +1224,9 @@ p {
   width: 100%;
   height: 50%;
   z-index: 2;
-  background: yellow;
+  background: linear-gradient(180deg, #FFFFFF 0% 0%, #000000 100% 100%);
+  mix-blend-mode: multiply;
+  opacity: 0.5;
 }
 .page-header-cont .page-header .page-header-bg .page-header-bg-img {
   position: absolute;
@@ -1189,4 +1234,18 @@ p {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 120%;
+}
+@media (min-width: 0px) {
+  .page-header-cont .page-header .page-header-bg .page-header-bg-img {
+    height: 120%;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 1023px) {
+  .page-header-cont .page-header .page-header-bg .page-header-bg-img {
+    width: 120%;
+    height: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

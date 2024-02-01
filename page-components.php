@@ -344,7 +344,7 @@ get_header();
 			<div class="page-header-cont">
 				<div class="page-header">
 					<div class="page-header-fg">
-						<p>New Page Title</p>
+						<p class="page-header-fg-title">New Page Title</p>
 					</div>
 					<div class="page-header-bg">
 						<div class="page-header-bg-gradient"></div>
