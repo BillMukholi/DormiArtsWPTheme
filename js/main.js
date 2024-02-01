@@ -7,7 +7,7 @@ $(document).ready(()=>{
     //HERO ANIMATION
     let heroAnimation = gsap.timeline()
     heroAnimation.pause()
-    heroAnimation.to(".hero-img",{scale:1.15, repeat:-1, duration:6.3})
+    heroAnimation.to(".hero-img",{scale:1.1, repeat:-1, duration:6.3})
     heroAnimation.restart()
 
     //HERO CAROUSEL
