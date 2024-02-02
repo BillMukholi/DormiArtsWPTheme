@@ -1179,7 +1179,7 @@ p {
 }
 @media (min-width: 1023px) {
   .page-header-cont .page-header {
-    border-radius: 20px;
+    border-radius: 0px;
   }
 }
 .page-header-cont .page-header .page-header-fg {
@@ -1224,11 +1224,11 @@ p {
   position: absolute;
   bottom: 0px;
   width: 100%;
-  height: 50%;
+  height: 80%;
   z-index: 2;
   background: linear-gradient(180deg, #FFFFFF 0% 0%, #000000 100% 100%);
   mix-blend-mode: multiply;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 .page-header-cont .page-header .page-header-bg .page-header-bg-img {
   position: absolute;
