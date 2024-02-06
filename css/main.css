@@ -1338,6 +1338,13 @@ p {
 .site-info-top .site-info-top-left-cont .site-info-top-left-menu-list {
   position: relative;
   width: 100%;
+}
+.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu {
+  position: relative;
+}
+.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu ul {
+  position: relative;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   padding: 0;
@@ -1345,23 +1352,23 @@ p {
   margin-bottom: 1cm;
 }
 @media (min-width: 0px) {
-  .site-info-top .site-info-top-left-cont .site-info-top-left-menu-list {
+  .site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu ul {
     width: 100%;
     justify-content: center;
   }
 }
 @media (min-width: 1023px) {
-  .site-info-top .site-info-top-left-cont .site-info-top-left-menu-list {
+  .site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu ul {
     height: 70%;
     justify-content: left;
   }
 }
-.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list li {
+.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu ul li {
   position: relative;
   display: block;
   margin: 5px 10px;
 }
-.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list li a {
+.site-info-top .site-info-top-left-cont .site-info-top-left-menu-list .menu ul li a {
   position: relative;
   text-decoration: none;
   color: black;
@@ -1420,11 +1427,29 @@ p {
 .site-info-bottom {
   position: relative;
   width: 100%;
-  display: flex;
+}
+@media (min-width: 0px) {
+  .site-info-bottom {
+    display: block;
+  }
+}
+@media (min-width: 1023px) {
+  .site-info-bottom {
+    display: flex;
+  }
 }
 .site-info-bottom .site-info-bottom-left-cont {
   position: relative;
-  width: 50%;
+}
+@media (min-width: 0px) {
+  .site-info-bottom .site-info-bottom-left-cont {
+    width: 100%;
+  }
+}
+@media (min-width: 1023px) {
+  .site-info-bottom .site-info-bottom-left-cont {
+    height: 50%;
+  }
 }
 .site-info-bottom .site-info-bottom-left-cont .site-info-bottom-left-form {
   position: relative;
@@ -1433,6 +1458,11 @@ p {
 .site-info-bottom .site-info-bottom-left-cont .site-info-bottom-left-form p {
   margin: 0px;
   padding: 0px;
+}
+@media (min-width: 0px) {
+  .site-info-bottom .site-info-bottom-left-cont .site-info-bottom-left-form .site-info-bottom-left-title {
+    padding-top: 1cm;
+  }
 }
 .site-info-bottom .site-info-bottom-left-cont .site-info-bottom-left-form .site-info-bottom-left-info {
   padding: 10px 0;
@@ -1454,13 +1484,36 @@ p {
 }
 .site-info-bottom .site-info-bottom-right-cont {
   position: relative;
-  width: 50%;
+  background: yellow;
+}
+@media (min-width: 0px) {
+  .site-info-bottom .site-info-bottom-right-cont {
+    width: 100%;
+  }
+}
+@media (min-width: 1023px) {
+  .site-info-bottom .site-info-bottom-right-cont {
+    height: 50%;
+  }
 }
 .site-info-bottom .site-info-bottom-right-cont .site-info-bottom-right-text {
   position: absolute;
-  bottom: 0px;
-  right: 0px;
   padding: 0px;
   margin: 0px;
   white-space: nowrap;
+}
+@media (min-width: 0px) {
+  .site-info-bottom .site-info-bottom-right-cont .site-info-bottom-right-text {
+    top: 1cm;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (min-width: 1023px) {
+  .site-info-bottom .site-info-bottom-right-cont .site-info-bottom-right-text {
+    top: 3.5cm;
+    left: unset;
+    right: 0;
+    transform: translateX(0);
+  }
 }/*# sourceMappingURL=main.css.map */

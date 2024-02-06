@@ -16,16 +16,16 @@
 			<div class="site-info-container container">
 				<div class="site-info-top">
 					<div class="site-info-top-left-cont">
-						<ul class="site-info-top-left-menu-list">
+						<div class="site-info-top-left-menu-list">
 							<?php
 								wp_nav_menu(array(
-									'menu' => 'Footer',
+									'theme_location' => 'footer',
 									'container' => false,
 									'items_wrap' => '%3$s',
 								)); 
 
 							?>
-						</ul>
+						</div>
 					</div>
 					<div class="site-info-top-right-cont">
 						<div class="site-info-top-right-social-media-cont">
