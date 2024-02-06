@@ -359,6 +359,7 @@ p {
 .mobile-navigation-cont .mobile-navigation .mobile-navigation-list li ul {
   display: none;
   width: 100%;
+  opacity: 0;
   height: 0;
   padding: 0px;
   margin: 0px;
@@ -375,7 +376,6 @@ p {
 .mobile-navigation-cont .mobile-navigation .mobile-navigation-list li:hover {
   background: rgb(222, 222, 222);
 }
-
 .hero {
   position: relative;
   width: 100%;

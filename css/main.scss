@@ -378,6 +378,7 @@ p{
                 ul{
                     display: none;
                     width: 100%;
+                    opacity: 0;
                     height: 0;
                     padding: 0px;
                     margin: 0px;
@@ -394,6 +395,8 @@ p{
             }
             li:hover{
                 background: rgb(222, 222, 222);
+            }
+            .menu-item-has-children{
             }
         }
     }
