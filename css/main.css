@@ -127,7 +127,35 @@ p {
   font-size: 1em;
 }
 .header .header-cont .header-desktop .header-desktop-right .header-desktop-navigation li ul {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   display: none;
+  background: white;
+  margin: 0px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.05);
+}
+.header .header-cont .header-desktop .header-desktop-right .header-desktop-navigation li ul li {
+  width: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.header .header-cont .header-desktop .header-desktop-right .header-desktop-navigation li ul li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px 30px;
+}
+.header .header-cont .header-desktop .header-desktop-right .header-desktop-navigation li ul li a:hover {
+  background: rgb(234, 234, 234);
+}
+.header .header-cont .header-desktop .header-desktop-right .header-desktop-navigation li:hover ul {
+  display: block;
 }
 .header .header-cont .header-desktop .header-desktop-right .header-desktop-checkout-cont {
   position: relative;
