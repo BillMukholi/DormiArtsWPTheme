@@ -67,25 +67,3 @@ hamburgerMenu.addEventListener('click',()=>{
     }
 })
 
-//MOBILE MENU NAVIGATION
-let mobileMenuRoot = document.getElementsByClassName("mobile-navigation")[0]
-let mobileMenuAnchorElement = mobileMenuRoot.querySelectorAll("a[href='#']");
-
-for (let i = 0; i < mobileMenuAnchorElement.length; i++){
-    let mobileMenuAnchorElementParent = mobileMenuAnchorElement[i].parentElement
-    mobileMenuAnchorElementParent.setAttribute('open','false')
-
-    let mobileMenuAnchorElementParentList = mobileMenuAnchorElementParent.querySelectorAll('ul')[0]
-    mobileMenuAnchorElementParent.addEventListener('click',()=>{
-        if (mobileMenuAnchorElementParent.getAttribute('open') == 'false'){
-            gsap.to(mobileMenuAnchorElementParentList,{display:"block"})
-            gsap.to(mobileMenuAnchorElementParentList,{opacity:1, height:'auto'})
-            mobileMenuAnchorElementParent.setAttribute('open','true')
-        }
-        else{
-            gsap.to(mobileMenuAnchorElementParentList,{display:"none", opacity:0, height:0})
-            mobileMenuAnchorElementParent.setAttribute('open','false')
-        }
-        
-    })
-}
