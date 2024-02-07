@@ -1724,6 +1724,20 @@ p{
                 border: 2px solid black;
                 height: 1cm;
                 margin-top: 10px;
+                @media(min-width:0px){
+                    width: 100%;
+                }
+                @media(min-width:319px){
+                }
+                @media(min-width:374px){
+                }
+                @media(min-width:424px){
+                    width: 70%;
+                }
+                @media(min-width:767px){
+                }
+                @media(min-width:1023px){
+                }
             }
             .site-info-bottom-left-btn{
                 position: relative;
@@ -1732,6 +1746,23 @@ p{
                 height: 1cm;
                 width: 3cm;
                 font-weight: 900;
+                @media(min-width:0px){
+                    margin-top: 5px;
+                    width: 100%;
+                }
+                @media(min-width:319px){
+                }
+                @media(min-width:374px){
+                }
+                @media(min-width:424px){
+                    margin-top: unset;
+                    width: 3cm;
+                }
+                @media(min-width:767px){
+                }
+                @media(min-width:1023px){
+                }
+                
             }
         }
     }
