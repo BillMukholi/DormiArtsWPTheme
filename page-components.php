@@ -353,6 +353,19 @@ get_header();
 				</div>
 			</div>
 
+			<!-- PAGE HEADER -->
+			<div class="page-header-long-cont">
+				<div class="page-header-long">
+					<div class="page-header-long-fg">
+						<p class="page-header-long-fg-title">New Page Title</p>
+					</div>
+					<div class="page-header-long-bg">
+						<div class="page-header-long-bg-gradient"></div>
+						<img class="page-header-long-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/1.jpg' ?>">
+					</div>
+				</div>
+			</div>
+
 
 
 				<!-- NAVIGATION ANCHOR -->

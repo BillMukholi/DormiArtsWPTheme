@@ -16,40 +16,45 @@
 			<div class="site-info-container container">
 				<div class="site-info-top">
 					<div class="site-info-top-left-cont">
-						<div class="site-info-top-left-menu-list">
+						<ul class="site-info-top-left-menu-list">
 							<?php
 								wp_nav_menu(array(
-									'theme_location' => 'footer',
+									'menu' => 'footer',
 									'container' => false,
 									'items_wrap' => '%3$s',
 								)); 
 
 							?>
-						</div>
+						</ul>
 					</div>
 					<div class="site-info-top-right-cont">
 						<div class="site-info-top-right-social-media-cont">
-							<a class="social-media-link" href="#">
+							<a class="social-media-link" href="https://www.facebook.com/dormi.arts" target="_blank">
 								<div class="social-media-icon-cont">
 									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/facebook_f.svg' ?>">
 								</div>
 							</a>
-							<a class="social-media-link" href="#">
+							<a class="social-media-link" href="https://www.instagram.com/dormiarts/" target="_blank">
 								<div class="social-media-icon-cont">
 									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/instagram.svg' ?>">
 								</div>
 							</a>
-							<a class="social-media-link" href="#">
+							<a class="social-media-link" href="https://www.linkedin.com/company/dormi-arts/" target="_blank">
 								<div class="social-media-icon-cont">
 									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/linkedin.svg' ?>">
 								</div>
 							</a>
-							<a class="social-media-link" href="#">
+							<a class="social-media-link" href="https://twitter.com/DormiArtsOnX" target="_blank">
 								<div class="social-media-icon-cont">
 									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/x.svg' ?>">
 								</div>
 							</a>
-							<a class="social-media-link" href="#">
+							<a class="social-media-link" href="https://www.tiktok.com/@dormi.arts?_t=8jiDCSjTRyf&_r=1" target="_blank">
+								<div class="social-media-icon-cont">
+									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/tiktok.svg' ?>">
+								</div>
+							</a>
+							<a class="social-media-link" href="https://www.youtube.com/@DormiArts" target="_blank">
 								<div class="social-media-icon-cont">
 									<img class="social-media-icon" src="<?php echo get_template_directory_uri().'/assets/icon/social/youtube.svg' ?>">
 								</div>
