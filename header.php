@@ -30,33 +30,84 @@
 <?php wp_body_open(); ?>
 <div id="page" class="site">
 	<header class="header">
-		<div class="header-cont container">
+		<div class="header-cont">
 			<div class="header-desktop">
-				<div class="header-desktop-left">
-					<a class="header-desktop-site-name-cont textColor" href="<?php echo site_url(); ?>">
-						<p class="header-desktop-site-name"><?php echo get_bloginfo('name'); ?></p>
-					</a>
-				</div>
-				<div class="header-desktop-center"></div>
-				<div class="header-desktop-right">
-					<nav class="header-desktop-navigation-cont">
-						<ul class="header-desktop-navigation">
-							<?php
-								wp_nav_menu(array(
-									'menu' => 'primary',
-									'container' => false,
-									'items_wrap' => '%3$s',
-								)); 
-							?>
+				<div class="header-desktop-top-cont">
+					<div class="header-desktop-top container">
+						<div class="header-desktop-top-left">
+							<ul class="header-desktop-top-left-menu">
+								<?php
+									wp_nav_menu(array(
+										'menu' => 'top',
+										'container' => false,
+										'items_wrap' => '%3$s',
+									)); 
+
+								?>
 						</ul>
-					</nav>
-					<div class="header-desktop-checkout-cont">
-						<a class="header-desktop-checkout-btn" href="#">
-							<p  class="header-desktop-checkout-btn-text">Checkout</p>
-							<div  class="header-desktop-checkout-number-cont">
-								<p class="header-desktop-checkout-number">0</p>
+						</div>
+						<div class="header-desktop-top-right">
+							<ul class="header-desktop-top-right-menu">
+								<li>
+									<a href="#">
+
+
+
+
+									<?php
+
+if ( is_user_logged_in() ) {
+	echo 'Welcome back, ' . wp_get_current_user()->display_name . '!';
+  } else {
+	echo 'Please log in to access this content.';
+  }
+
+
+
+
+
+									?>
+
+
+
+
+
+
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="header-desktop-bottom-cont">
+					<div class="header-desktop-bottom container">
+						<div class="header-desktop-left">
+							<a class="header-desktop-site-name-cont textColor" href="<?php echo site_url(); ?>">
+								<p class="header-desktop-site-name"><?php echo get_bloginfo('name'); ?></p>
+							</a>
+						</div>
+						<div class="header-desktop-center"></div>
+						<div class="header-desktop-right">
+							<nav class="header-desktop-navigation-cont">
+								<ul class="header-desktop-navigation">
+									<?php
+										wp_nav_menu(array(
+											'menu' => 'primary',
+											'container' => false,
+											'items_wrap' => '%3$s',
+										)); 
+									?>
+								</ul>
+							</nav>
+							<div class="header-desktop-checkout-cont">
+								<a class="header-desktop-checkout-btn" href="#">
+									<p  class="header-desktop-checkout-btn-text">Checkout</p>
+									<div  class="header-desktop-checkout-number-cont">
+										<p class="header-desktop-checkout-number">0</p>
+									</div>
+								</a>
 							</div>
-						</a>
+						</div>
 					</div>
 				</div>
 			</div>
