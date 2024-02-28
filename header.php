@@ -49,30 +49,17 @@
 						<div class="header-desktop-top-right">
 							<ul class="header-desktop-top-right-menu">
 								<li>
-									<a href="#">
-
-
-
-
 									<?php
-
-if ( is_user_logged_in() ) {
-	echo 'Welcome back, ' . wp_get_current_user()->display_name . '!';
-  } else {
-	echo 'Please log in to access this content.';
-  }
-
-
-
-
-
+										if ( is_user_logged_in() ) {
+										echo '<a href="'.site_url().'/my-account">';
+											echo wp_get_current_user()->display_name;
+										echo '</a>';
+										} else {
+											echo '<a href="'.site_url().'/authentication">';
+												echo 'Login | Signup';
+											echo '</a>';
+										}
 									?>
-
-
-
-
-
-
 									</a>
 								</li>
 							</ul>
@@ -101,7 +88,7 @@ if ( is_user_logged_in() ) {
 							</nav>
 							<div class="header-desktop-checkout-cont">
 								<a class="header-desktop-checkout-btn" href="#">
-									<p  class="header-desktop-checkout-btn-text">Checkout</p>
+									<p  class="header-desktop-checkout-btn-text">Shop</p>
 									<div  class="header-desktop-checkout-number-cont">
 										<p class="header-desktop-checkout-number">0</p>
 									</div>

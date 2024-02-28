@@ -395,6 +395,20 @@ get_header();
 					</div>
 
 
+					<!-- PAGE HEADER -->
+					<div class="page-header">
+						<div class="page-header-fg-cont">
+							<div class="page-header-bar">
+								<p class="page-header-title">Header Title</p>
+							</div>
+						</div>
+						<div class="page-header-bg-cont">
+								<div class="page-header-bg-gradient" style=""></div>
+								<img class="page-header-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/professionals.jpg'?>">
+						</div>
+					</div>
+
+
 			
 
 
