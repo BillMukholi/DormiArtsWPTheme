@@ -775,7 +775,7 @@ p {
 }
 @media (min-width: 1439px) {
   .page-header {
-    height: 18cm;
+    height: 15cm;
   }
 }
 .page-header .page-header-fg-cont {
@@ -903,11 +903,11 @@ p {
 }
 .linkBtn .linkBtn-link {
   position: absolute;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   background: black;
   border-radius: 10px;
-  padding: 15px 25px;
+  padding: 15px 0px;
   text-decoration: none;
 }
 @media (min-width: 0px) {
@@ -930,10 +930,13 @@ p {
   margin: 0;
   padding: 0;
   white-space: nowrap;
+  font-size: 0.8em;
 }
 .linkBtn .linkBtn-link .linkBtn-link-icon {
+  display: block;
   width: 1cm;
-  padding-left: 10%;
+  margin-left: 10%;
+  margin-right: 1cm;
 }
 
 .profile-picture-widget {
