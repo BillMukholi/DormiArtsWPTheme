@@ -2083,4 +2083,245 @@ p {
 .related .products {
   position: relative;
   margin: 0 auto;
+}
+
+.artist-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.artist-link .artist-link-cont {
+  position: relative;
+  width: 100%;
+}
+.artist-link .artist-link-cont .artist-link-top {
+  position: relative;
+  margin: auto;
+  border-radius: 1000cm;
+  overflow: hidden;
+}
+@media (min-width: 0px) {
+  .artist-link .artist-link-cont .artist-link-top {
+    width: 2.5cm;
+    height: 2.5cm;
+  }
+}
+@media (min-width: 424px) {
+  .artist-link .artist-link-cont .artist-link-top {
+    width: 3cm;
+    height: 3cm;
+  }
+}
+@media (min-width: 767px) {
+  .artist-link .artist-link-cont .artist-link-top {
+    width: 3cm;
+    height: 3cm;
+  }
+}
+@media (min-width: 1023px) {
+  .artist-link .artist-link-cont .artist-link-top {
+    width: 3cm;
+    height: 3cm;
+  }
+}
+@media (min-width: 1439px) {
+  .artist-link .artist-link-cont .artist-link-top {
+    width: 4cm;
+    height: 4cm;
+  }
+}
+.artist-link .artist-link-cont .artist-link-top .artist-link-img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.artist-link .artist-link-cont .artist-link-bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.artist-link .artist-link-cont .artist-link-bottom p {
+  display: block;
+  color: #377860;
+  font-weight: 900;
+  text-align: center;
+  margin: auto;
+  margin-top: 1%;
+}
+
+.profile-picture-widget {
+  position: relative;
+  width: 100%;
+  height: 13cm;
+  width: 100%;
+  z-index: 2;
+}
+@media (min-width: 0px) {
+  .profile-picture-widget {
+    transform: scale(0.75);
+  }
+}
+@media (min-width: 1023px) {
+  .profile-picture-widget {
+    transform: scale(0.9);
+  }
+}
+.profile-picture-widget .profile-picture-widget-cont {
+  position: relative;
+  width: 100%;
+  height: 13cm;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+@media (min-width: 0px) {
+  .profile-picture-widget .profile-picture-widget-cont {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 1023px) {
+  .profile-picture-widget .profile-picture-widget-cont {
+    align-items: end;
+    margin-right: unset;
+    margin-left: auto;
+  }
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas {
+  position: relative;
+  width: 100%;
+  height: 13cm;
+  width: 13cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 5cm;
+  height: 5cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont .profile-picture-widget-lvl-1 {
+  position: relative;
+  width: 5cm;
+  height: 5cm;
+  border-radius: 100cm;
+  overflow: hidden;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont .profile-picture-widget-lvl-1 .profile-picture-widget-lvl-carousel {
+  position: relative;
+  width: 5cm;
+  height: 5cm;
+  background: gray;
+  transform: scale(1.2);
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-1-cont .profile-picture-widget-lvl-1 img {
+  width: 110%;
+  height: auto;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 8cm;
+  height: 8cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 {
+  position: relative;
+  width: 8cm;
+  height: 8cm;
+  border-radius: 100cm;
+  border: 2px solid black;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont {
+  position: absolute;
+  height: 2cm;
+  width: 2cm;
+  border-radius: 100cm;
+  background: gray;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont .profile-picture-widget-lvl-2-element {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 2cm;
+  height: 2cm;
+  border-radius: 100cm;
+  overflow: hidden;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont .profile-picture-widget-lvl-2-element .profile-picture {
+  width: 110%;
+  height: auto;
+  margin: auto;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont:nth-child(1) {
+  top: -1cm;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont:nth-child(2) {
+  bottom: 1.5cm;
+  left: -0.7cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-2-cont .profile-picture-widget-lvl-2 .profile-picture-widget-lvl-2-element-cont:nth-child(3) {
+  bottom: 1.5cm;
+  right: -0.7cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 11.5cm;
+  height: 11.5cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 {
+  position: relative;
+  width: 11.5cm;
+  height: 11.5cm;
+  border-radius: 100cm;
+  border: 2px solid rgba(0, 0, 0, 0.15);
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont {
+  position: absolute;
+  height: 1cm;
+  width: 1cm;
+  border-radius: 100cm;
+  background: gray;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont .profile-picture-widget-lvl-3-element {
+  position: relative;
+  display: flex;
+  width: 1cm;
+  height: 1cm;
+  border-radius: 100cm;
+  overflow: hidden;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont .profile-picture-widget-lvl-3-element .profile-picture {
+  width: 110%;
+  height: auto;
+  margin: auto;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont:nth-child(1) {
+  top: -0.5cm;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont:nth-child(2) {
+  bottom: 2.75cm;
+  left: 0cm;
+}
+.profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont:nth-child(3) {
+  bottom: 2.75cm;
+  right: 0cm;
 }/*# sourceMappingURL=main.css.map */

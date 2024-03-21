@@ -409,6 +409,19 @@ get_header();
 					</div>
 
 
+					<!-- ARTIST -->
+					<a class="artist-link" href="#">
+						<div class="artist-link-cont">
+							<div class="artist-link-top">
+								<img class="artist-link-img" src="<?php echo get_template_directory_uri().'/assets/img/avatar4.jpg' ?>">
+							</div>
+							<div class="artist-link-bottom">
+								<p class="artist-link-text">Artist Name</p>
+							</div>
+						</div>
+					</a>
+
+
 			
 
 
