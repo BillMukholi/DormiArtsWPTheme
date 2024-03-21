@@ -2324,4 +2324,20 @@ p {
 .profile-picture-widget .profile-picture-widget-cont .profile-picture-widget-canvas .profile-picture-widget-lvl-3-cont .profile-picture-widget-lvl-3 .profile-picture-widget-lvl-3-element-cont:nth-child(3) {
   bottom: 2.75cm;
   right: 0cm;
+}
+
+.events-and-offers-carousel-cont {
+  position: relative;
+  width: 100%;
+  background: pink;
+}
+@media (min-width: 0px) {
+  .events-and-offers-carousel-cont {
+    height: 7cm;
+  }
+}
+@media (min-width: 1023px) {
+  .events-and-offers-carousel-cont {
+    height: 12cm;
+  }
 }/*# sourceMappingURL=main.css.map */

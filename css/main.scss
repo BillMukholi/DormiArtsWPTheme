@@ -2653,3 +2653,26 @@ p{
         }
     }
 }
+
+
+.events-and-offers-carousel-cont{
+    position: relative;
+    width: 100%;
+    background: pink;
+    @media(min-width:0px){
+        height: 7cm;
+    }
+    @media(min-width:319px){
+    }
+    @media(min-width:374px){
+    }
+    @media(min-width:424px){
+    }
+    @media(min-width:767px){
+    }
+    @media(min-width:1023px){
+        height: 12cm;
+    }
+    @media(min-width:1439px){
+    }
+}
