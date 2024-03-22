@@ -2340,4 +2340,26 @@ p {
   .events-and-offers-carousel-cont {
     height: 12cm;
   }
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: green;
+}
+@media (min-width: 0px) {
+  .events-and-offers-carousel-cont .events-and-offers-carousel {
+    height: 7cm;
+  }
+}
+@media (min-width: 1023px) {
+  .events-and-offers-carousel-cont .events-and-offers-carousel {
+    height: 12cm;
+  }
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont {
+  position: relative;
+  background: yellow;
+  height: inherit;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

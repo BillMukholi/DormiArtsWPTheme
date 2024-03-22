@@ -71,8 +71,6 @@ let offersCarousel = $(".events-and-offers-carousel")
 
 offersCarousel.owlCarousel({
     items:1,
-    animateIn: 'fadeIn',
-    animateOut: 'fadeOut',
     autoplay:true,
     dots:true
 });
