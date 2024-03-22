@@ -427,7 +427,9 @@ get_header();
 					<div class="events-and-offers-carousel-cont">
 						<div class="events-and-offers-carousel owl-carousel owl-theme">
 							<div class="events-and-offers-carousel-slider-cont">
-								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quis eos maiores nemo deserunt rem minus, harum laudantium excepturi, earum nam dignissimos quos, consequatur praesentium libero nihil molestiae ut ex.</p>
+								<div class="events-and-offers-carousel-slider-fg"></div>
+								<div class="events-and-offers-carousel-slider-gradient"></div>
+								<div class="events-and-offers-carousel-slider-bg"></div>
 							</div>
 							<div class="events-and-offers-carousel-slider-cont">
 								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quis eos maiores nemo deserunt rem minus, harum laudantium excepturi, earum nam dignissimos quos, consequatur praesentium libero nihil molestiae ut ex.</p>
