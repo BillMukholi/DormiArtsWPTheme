@@ -427,9 +427,19 @@ get_header();
 					<div class="events-and-offers-carousel-cont">
 						<div class="events-and-offers-carousel owl-carousel owl-theme">
 							<div class="events-and-offers-carousel-slider-cont">
-								<div class="events-and-offers-carousel-slider-fg"></div>
+								<div class="events-and-offers-carousel-slider-fg">
+									<div class="events-and-offers-info-cont">
+										<h3 class="events-and-offers-header">Offer Header</h3>
+										<p class="events-and-offers-subheader">Offers Subtitle </p>
+										<button class="events-and-offers-btn">
+											<span class="events-and-offers-btn-text">CTA</span>
+										</button>
+									</div>
+								</div>
 								<div class="events-and-offers-carousel-slider-gradient"></div>
-								<div class="events-and-offers-carousel-slider-bg"></div>
+								<div class="events-and-offers-carousel-slider-bg">
+									<img src="<?php echo get_template_directory_uri().'/assets/img/event.png'?>">
+								</div>
 							</div>
 							<div class="events-and-offers-carousel-slider-cont">
 							</div>

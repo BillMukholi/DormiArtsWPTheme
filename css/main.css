@@ -2368,12 +2368,34 @@ p {
   width: 100%;
   height: 100%;
 }
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-header {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 900;
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-subheader {
+  width: 100%;
+  text-align: center;
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-btn {
+  margin: auto;
+}
 .events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-gradient {
   position: absolute;
   z-index: 2;
   top: 1;
   width: 100%;
-  height: 100%;
+  height: 50%;
+  bottom: 0px;
+  mix-blend-mode: multiply;
+  background: linear-gradient(180deg, #ffffff 0% 0%, #000000 100% 100%);
 }
 .events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-bg {
   position: absolute;
