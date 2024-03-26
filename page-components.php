@@ -441,8 +441,6 @@ get_header();
 									<img src="<?php echo get_template_directory_uri().'/assets/img/event.png'?>">
 								</div>
 							</div>
-							<div class="events-and-offers-carousel-slider-cont">
-							</div>
 						</div>
 					</div>
 
