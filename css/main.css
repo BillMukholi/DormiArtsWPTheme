@@ -2384,15 +2384,25 @@ p {
   font-weight: 900;
   margin: unset;
   color: white;
+  font-family: "Poppins";
 }
 .events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-subheader {
   width: 100%;
   text-align: center;
   margin: unset;
   color: white;
+  font-family: "Poppins";
+}
+.events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-btn-link {
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
 }
 .events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-fg .events-and-offers-info-cont .events-and-offers-btn {
   margin: auto;
+  border-radius: 100cm;
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
 }
 .events-and-offers-carousel-cont .events-and-offers-carousel .events-and-offers-carousel-slider-cont .events-and-offers-carousel-slider-gradient {
   position: absolute;
