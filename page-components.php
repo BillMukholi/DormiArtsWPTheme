@@ -429,6 +429,40 @@ get_header();
 							<div class="events-and-offers-carousel-slider-cont">
 								<div class="events-and-offers-carousel-slider-fg">
 									<div class="events-and-offers-info-cont">
+										<h3 class="events-and-offers-header">All paintings in store!</h3>
+										<p class="events-and-offers-subheader">Find your perfect piece at a special price. Limited time only!</p>
+										<a class="events-and-offers-btn-link" href="#">
+											<button class="events-and-offers-btn">
+												<span class="events-and-offers-btn-text">CTA</span>
+											</button>
+										</a>
+									</div>
+								</div>
+								<div class="events-and-offers-carousel-slider-gradient"></div>
+								<div class="events-and-offers-carousel-slider-bg">
+									<img src="<?php echo get_template_directory_uri().'/assets/img/event.png'?>">
+								</div>
+							</div>
+							<div class="events-and-offers-carousel-slider-cont">
+								<div class="events-and-offers-carousel-slider-fg">
+									<div class="events-and-offers-info-cont">
+										<h3 class="events-and-offers-header">Offer Header</h3>
+										<p class="events-and-offers-subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eligendi error nemo iste animi. Doloremque blanditiis nulla distinctio aut commodi! Quae reprehenderit adipisci esse sit unde vero at, error ut. </p>
+										<a class="events-and-offers-btn-link" href="#">
+											<button class="events-and-offers-btn">
+												<span class="events-and-offers-btn-text">CTA</span>
+											</button>
+										</a>
+									</div>
+								</div>
+								<div class="events-and-offers-carousel-slider-gradient"></div>
+								<div class="events-and-offers-carousel-slider-bg">
+									<img src="<?php echo get_template_directory_uri().'/assets/img/event.png'?>">
+								</div>
+							</div>
+							<div class="events-and-offers-carousel-slider-cont">
+								<div class="events-and-offers-carousel-slider-fg">
+									<div class="events-and-offers-info-cont">
 										<h3 class="events-and-offers-header">Offer Header</h3>
 										<p class="events-and-offers-subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem eligendi error nemo iste animi. Doloremque blanditiis nulla distinctio aut commodi! Quae reprehenderit adipisci esse sit unde vero at, error ut. </p>
 										<a class="events-and-offers-btn-link" href="#">
