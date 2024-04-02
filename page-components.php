@@ -481,6 +481,12 @@ get_header();
 					</div>
 
 
+					<!-- PRODUCT TYPE -->
+					<div class="product-type-cont">
+						<a class="product-type-link" href="#""></a>
+					</div>
+
+
 			
 
 
