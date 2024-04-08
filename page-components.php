@@ -487,6 +487,38 @@ get_header();
 					</div>
 
 
+					<!-- NEW PRODUCT TYPE -->
+
+					<div class="service-card-cont">
+						<a class="service-card-anchor" href="#">
+							<div class="service-card">
+								<div class="service-card-fg-cont">
+									<div class="service-card-fg-textarea">
+										<div class="service-card-items">
+											<p class="service-card-item">Wooden Furniture</p>
+											<p class="service-card-item">Furniture</p>
+											<p class="service-card-item">Wooden</p>
+											<p class="service-card-item">Photo Frames</p>
+											<p class="service-card-item">Frames</p>
+											<p class="service-card-item">Photo Frames</p>
+											<p class="service-card-item">Wooden</p>
+											<p class="service-card-item">Photo Frames</p>
+											<p class="service-card-item">Frames</p>
+											<p class="service-card-item">Photo Frames</p>
+										</div>
+										<p class="service-card-title">Furniture</p>
+									</div>
+									<div class="service-card-fg-gradient">
+									</div>
+								</div>
+								<div class="service-card-bg-cont">
+									<img class="service-card-bg-img" src="<?php echo get_template_directory_uri().'/assets/img/Funiture 16x9 P.jpg'?>"/>
+								</div>
+							</div>
+						</a>
+    				</div>
+
+
 			
 
 

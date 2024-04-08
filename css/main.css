@@ -2430,4 +2430,101 @@ p {
   width: 100%;
   height: 100%;
   background: green;
+}
+
+.service-card-cont {
+  position: relative;
+  width: 6cm;
+  height: 9cm;
+}
+.service-card-cont .service-card-anchor {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: unset;
+}
+.service-card-cont .service-card-anchor .service-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+  padding: 0px 0px;
+  padding-bottom: 0.75cm;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-items {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 0px 10px;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-items .service-card-item {
+  color: black;
+  position: relative;
+  display: block;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 0.5em;
+  padding: 5px 10px;
+  margin: unset;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  border-radius: 100cm;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-title {
+  display: block;
+  font-size: 1.75em;
+  color: white;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: unset;
+  margin: unset;
+  margin-left: 15px;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-gradient {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 75%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0% 0%, #000000 100% 100%);
+  bottom: 0;
+  mix-blend-mode: multiply;
+  padding: unset;
+  margin: unset;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-bg-cont {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.service-card-cont .service-card-anchor .service-card .service-card-bg-cont .service-card-bg-img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
