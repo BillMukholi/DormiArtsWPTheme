@@ -2435,7 +2435,8 @@ p {
 .service-card-cont {
   position: relative;
   width: 10cm;
-  height: 9cm;
+  height: 13cm;
+  margin-top: 5cm;
 }
 .service-card-cont .service-card-anchor {
   position: relative;
@@ -2472,7 +2473,7 @@ p {
   flex-wrap: wrap;
   width: 100%;
   margin-bottom: 5px;
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 .service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-items .service-card-item {
   color: white;
@@ -2485,10 +2486,15 @@ p {
   font-weight: 700;
   padding: 5px 15px;
   margin: unset;
-  margin-right: 2px;
+  margin-right: 5px;
   margin-bottom: 5px;
-  border-radius: 100cm;
+  border-radius: 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (min-width: 0px) {
+  .service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-items .service-card-item {
+    font-size: 0.8em;
+  }
 }
 .service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-title {
   display: block;
@@ -2499,7 +2505,12 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding: unset;
   margin: unset;
-  margin-left: 15px;
+  margin-left: 20px;
+}
+@media (min-width: 0px) {
+  .service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-textarea .service-card-title {
+    font-size: 1.25em;
+  }
 }
 .service-card-cont .service-card-anchor .service-card .service-card-fg-cont .service-card-fg-gradient {
   position: absolute;
@@ -2520,6 +2531,7 @@ p {
   width: 100%;
   height: 100%;
   overflow: hidden;
+  background: purple;
 }
 .service-card-cont .service-card-anchor .service-card .service-card-bg-cont .service-card-bg-img {
   position: absolute;

@@ -2801,8 +2801,9 @@ p{
 .service-card-cont{
     position: relative;
     width: 10cm;
-    height: 9cm;
-    // border: 2px solid red;
+    height: 13cm;
+    //border: 2px solid red;
+    margin-top: 5cm;
     .service-card-anchor{
         position: relative;
         display: block;
@@ -2834,7 +2835,7 @@ p{
                         flex-wrap: wrap;
                         width: 100%;
                         margin-bottom: 5px;
-                        padding: 0px 10px;
+                        padding: 0px 20px;
                         .service-card-item{
                             color: white;
                             position: relative;
@@ -2845,10 +2846,26 @@ p{
                             font-weight: 700;
                             padding: 5px 15px;
                             margin: unset;
-                            margin-right: 2px;
+                            margin-right: 5px;
                             margin-bottom: 5px;
-                            border-radius: 100cm;
+                            border-radius: 10px;
                             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+                            @media(min-width:0px){
+                                font-size: 0.8em;
+                            }
+                            @media(min-width:319px){
+                            }
+                            @media(min-width:374px){
+                            }
+                            @media(min-width:424px){
+                            }
+                            @media(min-width:767px){
+                            }
+                            @media(min-width:1023px){
+                            }
+                            @media(min-width:1439px){
+                            }
                         }
                     }
                     .service-card-title{
@@ -2860,7 +2877,24 @@ p{
                         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                         padding: unset;
                         margin: unset;
-                        margin-left: 15px;
+                        margin-left: 20px;
+
+                        @media(min-width:0px){
+                            font-size: 1.25em;
+                        }
+                        @media(min-width:319px){
+                        }
+                        @media(min-width:374px){
+                        }
+                        @media(min-width:424px){
+                        }
+                        @media(min-width:767px){
+                        }
+                        @media(min-width:1023px){
+                        }
+                        @media(min-width:1439px){
+                        }
+                        
                     }
                 }
                 .service-card-fg-gradient{
@@ -2883,6 +2917,7 @@ p{
                 width: 100%;
                 height: 100%;
                 overflow: hidden;
+                background: purple;
                 .service-card-bg-img{
                     position: absolute;
                     left: 50%;
