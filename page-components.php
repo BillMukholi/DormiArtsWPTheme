@@ -494,7 +494,7 @@ get_header();
 							<div class="service-card">
 								<div class="service-card-fg-cont">
 									<div class="service-card-fg-textarea">
-										<div class="service-card-items">
+										<div class="service-card-items" data="sampledtat 01, sample_data 02,">
 											<p class="service-card-item">Wooden Furniture</p>
 											<p class="service-card-item">Furniture</p>
 											<p class="service-card-item">Wooden</p>
