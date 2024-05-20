@@ -74,3 +74,21 @@ offersCarousel.owlCarousel({
     autoplay:true,
     dots:true
 });
+
+
+
+var service_card_items = document.getElementsByClassName('service-card-items')
+ 
+for(let cc = 0; cc < service_card_items.length; cc++){
+    var service_card_data = service_card_items[cc].getAttribute('data')
+    if (!service_card_data){
+    }
+    var service_card_data_array = service_card_data.split(",");
+    for(let cc1 = 0; cc1 < service_card_data_array.length; cc1++){
+        var service_card_item = document.createElement("p")
+        service_card_item.classList.add("service-card-item")
+        service_card_item.textContent = service_card_data_array[cc1]
+        service_card_items[cc].appendChild(service_card_item)
+    }
+    
+}
