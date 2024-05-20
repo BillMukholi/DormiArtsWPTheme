@@ -2434,7 +2434,6 @@ p {
 
 .service-card-cont {
   position: relative;
-  margin-top: 5cm;
   overflow: hidden;
 }
 @media (min-width: 0px) {
@@ -2446,7 +2445,6 @@ p {
 }
 @media (min-width: 767px) {
   .service-card-cont {
-    border-radius: 10px;
     width: 100%;
     height: 13cm;
   }
